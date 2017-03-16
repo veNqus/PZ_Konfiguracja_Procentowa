@@ -1,0 +1,1 @@
+# PZ_Konfiguracja_Procentowa
