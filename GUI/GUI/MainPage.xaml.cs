@@ -25,9 +25,14 @@ namespace GUI
             InitializeComponent();
         }
 
-        private void buttonPrzeszukaj_Click(object sender, RoutedEventArgs e)
+        private void buttonPrzeszukajOut_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("kliekłę xD");
+        }
+
+        private void buttonPrzeszukajMes_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("też klikłę xD");
         }
     }
 }
