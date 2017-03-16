@@ -1,1 +1,2 @@
-# PZ_Konfiguracja_Procentowa
+# Projekt Zespołowy
+Konfiguracja Procentowa
