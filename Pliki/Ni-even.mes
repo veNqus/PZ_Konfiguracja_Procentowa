@@ -1,0 +1,582 @@
+
+ configuration 3d10            - parameters :     1 -   43
+
+ submatrix  1 terms    1 -    1
+
+
+ configuration 3d9 4s          - parameters :    44 -  123
+
+ submatrix  2 terms    1 -    1
+ submatrix  3 terms    1 -    2
+ submatrix  4 terms    1 -    1
+
+
+ configuration 3d9 5s          - parameters :   124 -  203
+
+ submatrix  2 terms    2 -    2
+ submatrix  3 terms    3 -    4
+ submatrix  4 terms    2 -    2
+
+
+ configuration 3d9 6s          - parameters :   204 -  283
+
+ submatrix  2 terms    3 -    3
+ submatrix  3 terms    5 -    6
+ submatrix  4 terms    3 -    3
+
+
+ configuration 3d9 7s          - parameters :   284 -  363
+
+ submatrix  2 terms    4 -    4
+ submatrix  3 terms    7 -    8
+ submatrix  4 terms    4 -    4
+
+
+ configuration 3d9 8s          - parameters :   364 -  443
+
+ submatrix  2 terms    5 -    5
+ submatrix  3 terms    9 -   10
+ submatrix  4 terms    5 -    5
+
+
+ configuration 3d9 9s          - parameters :   444 -  523
+
+ submatrix  2 terms    6 -    6
+ submatrix  3 terms   11 -   12
+ submatrix  4 terms    6 -    6
+
+
+ configuration 3d9 4d          - parameters :   524 -  661
+
+ submatrix  1 terms    2 -    3
+ submatrix  2 terms    7 -   10
+ submatrix  3 terms   13 -   16
+ submatrix  4 terms    7 -   10
+ submatrix  5 terms    1 -    3
+ submatrix  6 terms    1 -    1
+
+
+ configuration 3d9 5d          - parameters :   662 -  799
+
+ submatrix  1 terms    4 -    5
+ submatrix  2 terms   11 -   14
+ submatrix  3 terms   17 -   20
+ submatrix  4 terms   11 -   14
+ submatrix  5 terms    4 -    6
+ submatrix  6 terms    2 -    2
+
+
+ configuration 3d9 6d          - parameters :   800 -  937
+
+ submatrix  1 terms    6 -    7
+ submatrix  2 terms   15 -   18
+ submatrix  3 terms   21 -   24
+ submatrix  4 terms   15 -   18
+ submatrix  5 terms    7 -    9
+ submatrix  6 terms    3 -    3
+
+
+ configuration 3d9 7d          - parameters :   938 - 1075
+
+ submatrix  1 terms    8 -    9
+ submatrix  2 terms   19 -   22
+ submatrix  3 terms   25 -   28
+ submatrix  4 terms   19 -   22
+ submatrix  5 terms   10 -   12
+ submatrix  6 terms    4 -    4
+
+
+ configuration 3d9 5g          - parameters :  1076 - 1153
+
+ submatrix  2 terms   23 -   23
+ submatrix  3 terms   29 -   31
+ submatrix  4 terms   23 -   26
+ submatrix  5 terms   13 -   16
+ submatrix  6 terms    5 -    8
+ submatrix  7 terms    1 -    3
+ submatrix  8 terms    1 -    1
+
+
+ configuration 3d9 6g          - parameters :  1154 - 1231
+
+ submatrix  2 terms   24 -   24
+ submatrix  3 terms   32 -   34
+ submatrix  4 terms   27 -   30
+ submatrix  5 terms   17 -   20
+ submatrix  6 terms    9 -   12
+ submatrix  7 terms    4 -    6
+ submatrix  8 terms    2 -    2
+
+
+ configuration 3d8 4s2         - parameters :  1232 - 1280
+
+ submatrix  1 terms   10 -   11
+ submatrix  2 terms   25 -   25
+ submatrix  3 terms   35 -   37
+ submatrix  4 terms   31 -   31
+ submatrix  5 terms   21 -   22
+
+
+ configuration 3d8 4s 5s       - parameters :  1281 - 1364
+
+ submatrix  1 terms   12 -   14
+ submatrix  2 terms   26 -   32
+ submatrix  3 terms   38 -   45
+ submatrix  4 terms   32 -   38
+ submatrix  5 terms   23 -   27
+ submatrix  6 terms   13 -   14
+
+
+ configuration 3d8 4s 6s       - parameters :  1365 - 1448
+
+ submatrix  1 terms   15 -   17
+ submatrix  2 terms   33 -   39
+ submatrix  3 terms   46 -   53
+ submatrix  4 terms   39 -   45
+ submatrix  5 terms   28 -   32
+ submatrix  6 terms   15 -   16
+
+
+ configuration 3d8 4s 7s       - parameters :  1449 - 1532
+
+ submatrix  1 terms   18 -   20
+ submatrix  2 terms   40 -   46
+ submatrix  3 terms   54 -   61
+ submatrix  4 terms   46 -   52
+ submatrix  5 terms   33 -   37
+ submatrix  6 terms   17 -   18
+
+
+ configuration 3d8 4s 8s       - parameters :  1533 - 1616
+
+ submatrix  1 terms   21 -   23
+ submatrix  2 terms   47 -   53
+ submatrix  3 terms   62 -   69
+ submatrix  4 terms   53 -   59
+ submatrix  5 terms   38 -   42
+ submatrix  6 terms   19 -   20
+
+
+ configuration 3d8 4s 4d       - parameters :  1617 - 1732
+
+ submatrix  1 terms   24 -   31
+ submatrix  2 terms   54 -   75
+ submatrix  3 terms   70 -   99
+ submatrix  4 terms   60 -   88
+ submatrix  5 terms   43 -   64
+ submatrix  6 terms   21 -   34
+ submatrix  7 terms    7 -   13
+ submatrix  8 terms    3 -    4
+
+
+ configuration 3d8 4s 5d       - parameters :  1733 - 1848
+
+ submatrix  1 terms   32 -   39
+ submatrix  2 terms   76 -   97
+ submatrix  3 terms  100 -  129
+ submatrix  4 terms   89 -  117
+ submatrix  5 terms   65 -   86
+ submatrix  6 terms   35 -   48
+ submatrix  7 terms   14 -   20
+ submatrix  8 terms    5 -    6
+
+
+ configuration 3d8 4s 6d       - parameters :  1849 - 1964
+
+ submatrix  1 terms   40 -   47
+ submatrix  2 terms   98 -  119
+ submatrix  3 terms  130 -  159
+ submatrix  4 terms  118 -  146
+ submatrix  5 terms   87 -  108
+ submatrix  6 terms   49 -   62
+ submatrix  7 terms   21 -   27
+ submatrix  8 terms    7 -    8
+
+
+ configuration 3d8 4s 7d       - parameters :  1965 - 2080
+
+ submatrix  1 terms   48 -   55
+ submatrix  2 terms  120 -  141
+ submatrix  3 terms  160 -  189
+ submatrix  4 terms  147 -  175
+ submatrix  5 terms  109 -  130
+ submatrix  6 terms   63 -   76
+ submatrix  7 terms   28 -   34
+ submatrix  8 terms    9 -   10
+
+
+ configuration 3d8 4s 5g       - parameters :  2081 - 2189
+
+ submatrix  1 terms   56 -   60
+ submatrix  2 terms  142 -  155
+ submatrix  3 terms  190 -  211
+ submatrix  4 terms  176 -  204
+ submatrix  5 terms  131 -  162
+ submatrix  6 terms   77 -  105
+ submatrix  7 terms   35 -   56
+ submatrix  8 terms   11 -   24
+ submatrix  9 terms    1 -    7
+ submatrix 10 terms    1 -    2
+
+
+ configuration 3d8 4s 6g       - parameters :  2190 - 2298
+
+ submatrix  1 terms   61 -   65
+ submatrix  2 terms  156 -  169
+ submatrix  3 terms  212 -  233
+ submatrix  4 terms  205 -  233
+ submatrix  5 terms  163 -  194
+ submatrix  6 terms  106 -  134
+ submatrix  7 terms   57 -   78
+ submatrix  8 terms   25 -   38
+ submatrix  9 terms    8 -   14
+ submatrix 10 terms    3 -    4
+
+
+ configuration 3d8 4p2         - parameters :  2299 - 2393
+
+ submatrix  1 terms   66 -   76
+ submatrix  2 terms  170 -  187
+ submatrix  3 terms  234 -  262
+ submatrix  4 terms  234 -  255
+ submatrix  5 terms  195 -  213
+ submatrix  6 terms  135 -  142
+ submatrix  7 terms   79 -   82
+
+
+ configuration 3d8 4p 5p       - parameters :  2394 - 2543
+
+ submatrix  1 terms   77 -   94
+ submatrix  2 terms  188 -  234
+ submatrix  3 terms  263 -  322
+ submatrix  4 terms  256 -  311
+ submatrix  5 terms  214 -  254
+ submatrix  6 terms  143 -  165
+ submatrix  7 terms   83 -   91
+ submatrix  8 terms   39 -   40
+
+3d10            - 3d9 4s           no interactions                   Code = 1220
+3d10            - 3d9 5s           no interactions                   Code = 1220
+3d10            - 3d9 6s           no interactions                   Code = 1220
+3d10            - 3d9 7s           no interactions                   Code = 1220
+3d10            - 3d9 8s           no interactions                   Code = 1220
+3d10            - 3d9 9s           no interactions                   Code = 1220
+3d10            - 3d9 4d           parameters 2544 -  2569           Code = 1220
+3d10            - 3d9 5d           parameters 2570 -  2595           Code = 1220
+3d10            - 3d9 6d           parameters 2596 -  2621           Code = 1220
+3d10            - 3d9 7d           parameters 2622 -  2647           Code = 1220
+3d10            - 3d9 5g           no interactions                   Code = 1220
+3d10            - 3d9 6g           no interactions                   Code = 1220
+3d10            - 3d8 4s2          parameters 2648 -  2654           Code = 1320
+3d10            - 3d8 4s 5s        parameters 2655 -  2659           Code = 1330
+3d10            - 3d8 4s 6s        parameters 2660 -  2664           Code = 1330
+3d10            - 3d8 4s 7s        parameters 2665 -  2669           Code = 1330
+3d10            - 3d8 4s 8s        parameters 2670 -  2674           Code = 1330
+3d10            - 3d8 4s 4d        parameters 2675 -  2679           Code = 1330
+3d10            - 3d8 4s 5d        parameters 2680 -  2684           Code = 1330
+3d10            - 3d8 4s 6d        parameters 2685 -  2689           Code = 1330
+3d10            - 3d8 4s 7d        parameters 2690 -  2694           Code = 1330
+3d10            - 3d8 4s 5g        parameters 2695 -  2699           Code = 1330
+3d10            - 3d8 4s 6g        parameters 2700 -  2704           Code = 1330
+3d10            - 3d8 4p2          parameters 2705 -  2714           Code = 1320
+3d10            - 3d8 4p 5p        parameters 2715 -  2722           Code = 1330
+3d9 4s          - 3d9 5s           parameters 2723 -  2734           Code = 2102
+3d9 4s          - 3d9 6s           parameters 2735 -  2746           Code = 2102
+3d9 4s          - 3d9 7s           parameters 2747 -  2758           Code = 2102
+3d9 4s          - 3d9 8s           parameters 2759 -  2770           Code = 2102
+3d9 4s          - 3d9 9s           parameters 2771 -  2782           Code = 2102
+3d9 4s          - 3d9 4d           parameters 2783 -  2793           Code = 2102
+3d9 4s          - 3d9 5d           parameters 2794 -  2804           Code = 2102
+3d9 4s          - 3d9 6d           parameters 2805 -  2815           Code = 2102
+3d9 4s          - 3d9 7d           parameters 2816 -  2826           Code = 2102
+3d9 4s          - 3d9 5g           parameters 2827 -  2833           Code = 2102
+3d9 4s          - 3d9 6g           parameters 2834 -  2840           Code = 2102
+3d9 4s          - 3d8 4s2          parameters 2841 -  2848           Code = 2211
+3d9 4s          - 3d8 4s 5s        parameters 2849 -  2853           Code = 2201
+3d9 4s          - 3d8 4s 6s        parameters 2854 -  2858           Code = 2201
+3d9 4s          - 3d8 4s 7s        parameters 2859 -  2863           Code = 2201
+3d9 4s          - 3d8 4s 8s        parameters 2864 -  2868           Code = 2201
+3d9 4s          - 3d8 4s 4d        parameters 2869 -  2893           Code = 2201
+3d9 4s          - 3d8 4s 5d        parameters 2894 -  2918           Code = 2201
+3d9 4s          - 3d8 4s 6d        parameters 2919 -  2943           Code = 2201
+3d9 4s          - 3d8 4s 7d        parameters 2944 -  2968           Code = 2201
+3d9 4s          - 3d8 4s 5g        parameters 2969 -  2971           Code = 2201
+3d9 4s          - 3d8 4s 6g        parameters 2972 -  2974           Code = 2201
+3d9 4s          - 3d8 4p2          parameters 2975 -  2989           Code = 2212
+3d9 4s          - 3d8 4p 5p        parameters 2990 -  2999           Code = 2203
+3d9 5s          - 3d9 6s           parameters 3000 -  3011           Code = 2102
+3d9 5s          - 3d9 7s           parameters 3012 -  3023           Code = 2102
+3d9 5s          - 3d9 8s           parameters 3024 -  3035           Code = 2102
+3d9 5s          - 3d9 9s           parameters 3036 -  3047           Code = 2102
+3d9 5s          - 3d9 4d           parameters 3048 -  3058           Code = 2102
+3d9 5s          - 3d9 5d           parameters 3059 -  3069           Code = 2102
+3d9 5s          - 3d9 6d           parameters 3070 -  3080           Code = 2102
+3d9 5s          - 3d9 7d           parameters 3081 -  3091           Code = 2102
+3d9 5s          - 3d9 5g           parameters 3092 -  3098           Code = 2102
+3d9 5s          - 3d9 6g           parameters 3099 -  3105           Code = 2102
+3d9 5s          - 3d8 4s2          parameter  3106                   Code = 2212
+3d9 5s          - 3d8 4s 5s        parameters 3107 -  3111           Code = 2202
+3d9 5s          - 3d8 4s 6s        no interactions                   Code = 2203
+3d9 5s          - 3d8 4s 7s        no interactions                   Code = 2203
+3d9 5s          - 3d8 4s 8s        no interactions                   Code = 2203
+3d9 5s          - 3d8 4s 4d        parameters 3112 -  3117           Code = 2203
+3d9 5s          - 3d8 4s 5d        parameters 3118 -  3123           Code = 2203
+3d9 5s          - 3d8 4s 6d        parameters 3124 -  3129           Code = 2203
+3d9 5s          - 3d8 4s 7d        parameters 3130 -  3135           Code = 2203
+3d9 5s          - 3d8 4s 5g        no interactions                   Code = 2203
+3d9 5s          - 3d8 4s 6g        no interactions                   Code = 2203
+3d9 5s          - 3d8 4p2          parameters 3136 -  3150           Code = 2212
+3d9 5s          - 3d8 4p 5p        parameters 3151 -  3160           Code = 2203
+3d9 6s          - 3d9 7s           parameters 3161 -  3172           Code = 2102
+3d9 6s          - 3d9 8s           parameters 3173 -  3184           Code = 2102
+3d9 6s          - 3d9 9s           parameters 3185 -  3196           Code = 2102
+3d9 6s          - 3d9 4d           parameters 3197 -  3207           Code = 2102
+3d9 6s          - 3d9 5d           parameters 3208 -  3218           Code = 2102
+3d9 6s          - 3d9 6d           parameters 3219 -  3229           Code = 2102
+3d9 6s          - 3d9 7d           parameters 3230 -  3240           Code = 2102
+3d9 6s          - 3d9 5g           parameters 3241 -  3247           Code = 2102
+3d9 6s          - 3d9 6g           parameters 3248 -  3254           Code = 2102
+3d9 6s          - 3d8 4s2          parameter  3255                   Code = 2212
+3d9 6s          - 3d8 4s 5s        no interactions                   Code = 2203
+3d9 6s          - 3d8 4s 6s        parameters 3256 -  3260           Code = 2202
+3d9 6s          - 3d8 4s 7s        no interactions                   Code = 2203
+3d9 6s          - 3d8 4s 8s        no interactions                   Code = 2203
+3d9 6s          - 3d8 4s 4d        parameters 3261 -  3266           Code = 2203
+3d9 6s          - 3d8 4s 5d        parameters 3267 -  3272           Code = 2203
+3d9 6s          - 3d8 4s 6d        parameters 3273 -  3278           Code = 2203
+3d9 6s          - 3d8 4s 7d        parameters 3279 -  3284           Code = 2203
+3d9 6s          - 3d8 4s 5g        no interactions                   Code = 2203
+3d9 6s          - 3d8 4s 6g        no interactions                   Code = 2203
+3d9 6s          - 3d8 4p2          parameters 3285 -  3299           Code = 2212
+3d9 6s          - 3d8 4p 5p        parameters 3300 -  3309           Code = 2203
+3d9 7s          - 3d9 8s           parameters 3310 -  3321           Code = 2102
+3d9 7s          - 3d9 9s           parameters 3322 -  3333           Code = 2102
+3d9 7s          - 3d9 4d           parameters 3334 -  3344           Code = 2102
+3d9 7s          - 3d9 5d           parameters 3345 -  3355           Code = 2102
+3d9 7s          - 3d9 6d           parameters 3356 -  3366           Code = 2102
+3d9 7s          - 3d9 7d           parameters 3367 -  3377           Code = 2102
+3d9 7s          - 3d9 5g           parameters 3378 -  3384           Code = 2102
+3d9 7s          - 3d9 6g           parameters 3385 -  3391           Code = 2102
+3d9 7s          - 3d8 4s2          parameter  3392                   Code = 2212
+3d9 7s          - 3d8 4s 5s        no interactions                   Code = 2203
+3d9 7s          - 3d8 4s 6s        no interactions                   Code = 2203
+3d9 7s          - 3d8 4s 7s        parameters 3393 -  3397           Code = 2202
+3d9 7s          - 3d8 4s 8s        no interactions                   Code = 2203
+3d9 7s          - 3d8 4s 4d        parameters 3398 -  3403           Code = 2203
+3d9 7s          - 3d8 4s 5d        parameters 3404 -  3409           Code = 2203
+3d9 7s          - 3d8 4s 6d        parameters 3410 -  3415           Code = 2203
+3d9 7s          - 3d8 4s 7d        parameters 3416 -  3421           Code = 2203
+3d9 7s          - 3d8 4s 5g        no interactions                   Code = 2203
+3d9 7s          - 3d8 4s 6g        no interactions                   Code = 2203
+3d9 7s          - 3d8 4p2          parameters 3422 -  3436           Code = 2212
+3d9 7s          - 3d8 4p 5p        parameters 3437 -  3446           Code = 2203
+3d9 8s          - 3d9 9s           parameters 3447 -  3458           Code = 2102
+3d9 8s          - 3d9 4d           parameters 3459 -  3469           Code = 2102
+3d9 8s          - 3d9 5d           parameters 3470 -  3480           Code = 2102
+3d9 8s          - 3d9 6d           parameters 3481 -  3491           Code = 2102
+3d9 8s          - 3d9 7d           parameters 3492 -  3502           Code = 2102
+3d9 8s          - 3d9 5g           parameters 3503 -  3509           Code = 2102
+3d9 8s          - 3d9 6g           parameters 3510 -  3516           Code = 2102
+3d9 8s          - 3d8 4s2          parameter  3517                   Code = 2212
+3d9 8s          - 3d8 4s 5s        no interactions                   Code = 2203
+3d9 8s          - 3d8 4s 6s        no interactions                   Code = 2203
+3d9 8s          - 3d8 4s 7s        no interactions                   Code = 2203
+3d9 8s          - 3d8 4s 8s        parameters 3518 -  3522           Code = 2202
+3d9 8s          - 3d8 4s 4d        parameters 3523 -  3528           Code = 2203
+3d9 8s          - 3d8 4s 5d        parameters 3529 -  3534           Code = 2203
+3d9 8s          - 3d8 4s 6d        parameters 3535 -  3540           Code = 2203
+3d9 8s          - 3d8 4s 7d        parameters 3541 -  3546           Code = 2203
+3d9 8s          - 3d8 4s 5g        no interactions                   Code = 2203
+3d9 8s          - 3d8 4s 6g        no interactions                   Code = 2203
+3d9 8s          - 3d8 4p2          parameters 3547 -  3561           Code = 2212
+3d9 8s          - 3d8 4p 5p        parameters 3562 -  3571           Code = 2203
+3d9 9s          - 3d9 4d           parameters 3572 -  3582           Code = 2102
+3d9 9s          - 3d9 5d           parameters 3583 -  3593           Code = 2102
+3d9 9s          - 3d9 6d           parameters 3594 -  3604           Code = 2102
+3d9 9s          - 3d9 7d           parameters 3605 -  3615           Code = 2102
+3d9 9s          - 3d9 5g           parameters 3616 -  3622           Code = 2102
+3d9 9s          - 3d9 6g           parameters 3623 -  3629           Code = 2102
+3d9 9s          - 3d8 4s2          parameter  3630                   Code = 2212
+3d9 9s          - 3d8 4s 5s        no interactions                   Code = 2203
+3d9 9s          - 3d8 4s 6s        no interactions                   Code = 2203
+3d9 9s          - 3d8 4s 7s        no interactions                   Code = 2203
+3d9 9s          - 3d8 4s 8s        no interactions                   Code = 2203
+3d9 9s          - 3d8 4s 4d        parameters 3631 -  3636           Code = 2203
+3d9 9s          - 3d8 4s 5d        parameters 3637 -  3642           Code = 2203
+3d9 9s          - 3d8 4s 6d        parameters 3643 -  3648           Code = 2203
+3d9 9s          - 3d8 4s 7d        parameters 3649 -  3654           Code = 2203
+3d9 9s          - 3d8 4s 5g        no interactions                   Code = 2203
+3d9 9s          - 3d8 4s 6g        no interactions                   Code = 2203
+3d9 9s          - 3d8 4p2          parameters 3655 -  3669           Code = 2212
+3d9 9s          - 3d8 4p 5p        parameters 3670 -  3679           Code = 2203
+3d9 4d          - 3d9 5d           parameters 3680 -  3708           Code = 2102
+3d9 4d          - 3d9 6d           parameters 3709 -  3737           Code = 2102
+3d9 4d          - 3d9 7d           parameters 3738 -  3766           Code = 2102
+3d9 4d          - 3d9 5g           parameters 3767 -  3782           Code = 2102
+3d9 4d          - 3d9 6g           parameters 3783 -  3798           Code = 2102
+3d9 4d          - 3d8 4s2          parameters 3799 -  3809           Code = 2212
+3d9 4d          - 3d8 4s 5s        parameters 3810 -  3815           Code = 2203
+3d9 4d          - 3d8 4s 6s        parameters 3816 -  3821           Code = 2203
+3d9 4d          - 3d8 4s 7s        parameters 3822 -  3827           Code = 2203
+3d9 4d          - 3d8 4s 8s        parameters 3828 -  3833           Code = 2203
+3d9 4d          - 3d8 4s 4d        parameters 3834 -  3854           Code = 2202
+3d9 4d          - 3d8 4s 5d        parameters 3855 -  3860           Code = 2203
+3d9 4d          - 3d8 4s 6d        parameters 3861 -  3866           Code = 2203
+3d9 4d          - 3d8 4s 7d        parameters 3867 -  3872           Code = 2203
+3d9 4d          - 3d8 4s 5g        parameters 3873 -  3874           Code = 2203
+3d9 4d          - 3d8 4s 6g        parameters 3875 -  3876           Code = 2203
+3d9 4d          - 3d8 4p2          parameters 3877 -  3914           Code = 2212
+3d9 4d          - 3d8 4p 5p        parameters 3915 -  3934           Code = 2203
+3d9 5d          - 3d9 6d           parameters 3935 -  3963           Code = 2102
+3d9 5d          - 3d9 7d           parameters 3964 -  3992           Code = 2102
+3d9 5d          - 3d9 5g           parameters 3993 -  4008           Code = 2102
+3d9 5d          - 3d9 6g           parameters 4009 -  4024           Code = 2102
+3d9 5d          - 3d8 4s2          parameters 4025 -  4035           Code = 2212
+3d9 5d          - 3d8 4s 5s        parameters 4036 -  4041           Code = 2203
+3d9 5d          - 3d8 4s 6s        parameters 4042 -  4047           Code = 2203
+3d9 5d          - 3d8 4s 7s        parameters 4048 -  4053           Code = 2203
+3d9 5d          - 3d8 4s 8s        parameters 4054 -  4059           Code = 2203
+3d9 5d          - 3d8 4s 4d        parameters 4060 -  4065           Code = 2203
+3d9 5d          - 3d8 4s 5d        parameters 4066 -  4086           Code = 2202
+3d9 5d          - 3d8 4s 6d        parameters 4087 -  4092           Code = 2203
+3d9 5d          - 3d8 4s 7d        parameters 4093 -  4098           Code = 2203
+3d9 5d          - 3d8 4s 5g        parameters 4099 -  4100           Code = 2203
+3d9 5d          - 3d8 4s 6g        parameters 4101 -  4102           Code = 2203
+3d9 5d          - 3d8 4p2          parameters 4103 -  4140           Code = 2212
+3d9 5d          - 3d8 4p 5p        parameters 4141 -  4160           Code = 2203
+3d9 6d          - 3d9 7d           parameters 4161 -  4189           Code = 2102
+3d9 6d          - 3d9 5g           parameters 4190 -  4205           Code = 2102
+3d9 6d          - 3d9 6g           parameters 4206 -  4221           Code = 2102
+3d9 6d          - 3d8 4s2          parameters 4222 -  4232           Code = 2212
+3d9 6d          - 3d8 4s 5s        parameters 4233 -  4238           Code = 2203
+3d9 6d          - 3d8 4s 6s        parameters 4239 -  4244           Code = 2203
+3d9 6d          - 3d8 4s 7s        parameters 4245 -  4250           Code = 2203
+3d9 6d          - 3d8 4s 8s        parameters 4251 -  4256           Code = 2203
+3d9 6d          - 3d8 4s 4d        parameters 4257 -  4262           Code = 2203
+3d9 6d          - 3d8 4s 5d        parameters 4263 -  4268           Code = 2203
+3d9 6d          - 3d8 4s 6d        parameters 4269 -  4289           Code = 2202
+3d9 6d          - 3d8 4s 7d        parameters 4290 -  4295           Code = 2203
+3d9 6d          - 3d8 4s 5g        parameters 4296 -  4297           Code = 2203
+3d9 6d          - 3d8 4s 6g        parameters 4298 -  4299           Code = 2203
+3d9 6d          - 3d8 4p2          parameters 4300 -  4337           Code = 2212
+3d9 6d          - 3d8 4p 5p        parameters 4338 -  4357           Code = 2203
+3d9 7d          - 3d9 5g           parameters 4358 -  4373           Code = 2102
+3d9 7d          - 3d9 6g           parameters 4374 -  4389           Code = 2102
+3d9 7d          - 3d8 4s2          parameters 4390 -  4400           Code = 2212
+3d9 7d          - 3d8 4s 5s        parameters 4401 -  4406           Code = 2203
+3d9 7d          - 3d8 4s 6s        parameters 4407 -  4412           Code = 2203
+3d9 7d          - 3d8 4s 7s        parameters 4413 -  4418           Code = 2203
+3d9 7d          - 3d8 4s 8s        parameters 4419 -  4424           Code = 2203
+3d9 7d          - 3d8 4s 4d        parameters 4425 -  4430           Code = 2203
+3d9 7d          - 3d8 4s 5d        parameters 4431 -  4436           Code = 2203
+3d9 7d          - 3d8 4s 6d        parameters 4437 -  4442           Code = 2203
+3d9 7d          - 3d8 4s 7d        parameters 4443 -  4463           Code = 2202
+3d9 7d          - 3d8 4s 5g        parameters 4464 -  4465           Code = 2203
+3d9 7d          - 3d8 4s 6g        parameters 4466 -  4467           Code = 2203
+3d9 7d          - 3d8 4p2          parameters 4468 -  4505           Code = 2212
+3d9 7d          - 3d8 4p 5p        parameters 4506 -  4525           Code = 2203
+3d9 5g          - 3d9 6g           parameters 4526 -  4543           Code = 2102
+3d9 5g          - 3d8 4s2          parameter  4544                   Code = 2212
+3d9 5g          - 3d8 4s 5s        no interactions                   Code = 2203
+3d9 5g          - 3d8 4s 6s        no interactions                   Code = 2203
+3d9 5g          - 3d8 4s 7s        no interactions                   Code = 2203
+3d9 5g          - 3d8 4s 8s        no interactions                   Code = 2203
+3d9 5g          - 3d8 4s 4d        parameters 4545 -  4550           Code = 2203
+3d9 5g          - 3d8 4s 5d        parameters 4551 -  4556           Code = 2203
+3d9 5g          - 3d8 4s 6d        parameters 4557 -  4562           Code = 2203
+3d9 5g          - 3d8 4s 7d        parameters 4563 -  4568           Code = 2203
+3d9 5g          - 3d8 4s 5g        parameters 4569 -  4581           Code = 2202
+3d9 5g          - 3d8 4s 6g        parameters 4582 -  4583           Code = 2203
+3d9 5g          - 3d8 4p2          parameters 4584 -  4602           Code = 2212
+3d9 5g          - 3d8 4p 5p        parameters 4603 -  4612           Code = 2203
+3d9 6g          - 3d8 4s2          parameter  4613                   Code = 2212
+3d9 6g          - 3d8 4s 5s        no interactions                   Code = 2203
+3d9 6g          - 3d8 4s 6s        no interactions                   Code = 2203
+3d9 6g          - 3d8 4s 7s        no interactions                   Code = 2203
+3d9 6g          - 3d8 4s 8s        no interactions                   Code = 2203
+3d9 6g          - 3d8 4s 4d        parameters 4614 -  4619           Code = 2203
+3d9 6g          - 3d8 4s 5d        parameters 4620 -  4625           Code = 2203
+3d9 6g          - 3d8 4s 6d        parameters 4626 -  4631           Code = 2203
+3d9 6g          - 3d8 4s 7d        parameters 4632 -  4637           Code = 2203
+3d9 6g          - 3d8 4s 5g        parameters 4638 -  4639           Code = 2203
+3d9 6g          - 3d8 4s 6g        parameters 4640 -  4652           Code = 2202
+3d9 6g          - 3d8 4p2          parameters 4653 -  4671           Code = 2212
+3d9 6g          - 3d8 4p 5p        parameters 4672 -  4681           Code = 2203
+3d8 4s2         - 3d8 4s 5s        parameters 4682 -  4684           Code = 2121
+3d8 4s2         - 3d8 4s 6s        parameters 4685 -  4687           Code = 2121
+3d8 4s2         - 3d8 4s 7s        parameters 4688 -  4690           Code = 2121
+3d8 4s2         - 3d8 4s 8s        parameters 4691 -  4693           Code = 2121
+3d8 4s2         - 3d8 4s 4d        parameters 4694 -  4695           Code = 2121
+3d8 4s2         - 3d8 4s 5d        parameters 4696 -  4697           Code = 2121
+3d8 4s2         - 3d8 4s 6d        parameters 4698 -  4699           Code = 2121
+3d8 4s2         - 3d8 4s 7d        parameters 4700 -  4701           Code = 2121
+3d8 4s2         - 3d8 4s 5g        parameters 4702 -  4703           Code = 2121
+3d8 4s2         - 3d8 4s 6g        parameters 4704 -  4705           Code = 2121
+3d8 4s2         - 3d8 4p2          parameter  4706                   Code = 2132
+3d8 4s2         - 3d8 4p 5p        parameter  4707                   Code = 2123
+3d8 4s 5s       - 3d8 4s 6s        parameters 4708 -  4712           Code = 3109
+3d8 4s 5s       - 3d8 4s 7s        parameters 4713 -  4717           Code = 3109
+3d8 4s 5s       - 3d8 4s 8s        parameters 4718 -  4722           Code = 3109
+3d8 4s 5s       - 3d8 4s 4d        parameters 4723 -  4728           Code = 3109
+3d8 4s 5s       - 3d8 4s 5d        parameters 4729 -  4734           Code = 3109
+3d8 4s 5s       - 3d8 4s 6d        parameters 4735 -  4740           Code = 3109
+3d8 4s 5s       - 3d8 4s 7d        parameters 4741 -  4746           Code = 3109
+3d8 4s 5s       - 3d8 4s 5g        parameters 4747 -  4748           Code = 3109
+3d8 4s 5s       - 3d8 4s 6g        parameters 4749 -  4750           Code = 3109
+3d8 4s 5s       - 3d8 4p2          parameter  4751                   Code = 7123
+3d8 4s 5s       - 3d8 4p 5p        parameters 4752 -  4753           Code = 3106
+3d8 4s 6s       - 3d8 4s 7s        parameters 4754 -  4758           Code = 3109
+3d8 4s 6s       - 3d8 4s 8s        parameters 4759 -  4763           Code = 3109
+3d8 4s 6s       - 3d8 4s 4d        parameters 4764 -  4769           Code = 3109
+3d8 4s 6s       - 3d8 4s 5d        parameters 4770 -  4775           Code = 3109
+3d8 4s 6s       - 3d8 4s 6d        parameters 4776 -  4781           Code = 3109
+3d8 4s 6s       - 3d8 4s 7d        parameters 4782 -  4787           Code = 3109
+3d8 4s 6s       - 3d8 4s 5g        parameters 4788 -  4789           Code = 3109
+3d8 4s 6s       - 3d8 4s 6g        parameters 4790 -  4791           Code = 3109
+3d8 4s 6s       - 3d8 4p2          parameter  4792                   Code = 7123
+3d8 4s 6s       - 3d8 4p 5p        parameters 4793 -  4794           Code = 3106
+3d8 4s 7s       - 3d8 4s 8s        parameters 4795 -  4799           Code = 3109
+3d8 4s 7s       - 3d8 4s 4d        parameters 4800 -  4805           Code = 3109
+3d8 4s 7s       - 3d8 4s 5d        parameters 4806 -  4811           Code = 3109
+3d8 4s 7s       - 3d8 4s 6d        parameters 4812 -  4817           Code = 3109
+3d8 4s 7s       - 3d8 4s 7d        parameters 4818 -  4823           Code = 3109
+3d8 4s 7s       - 3d8 4s 5g        parameters 4824 -  4825           Code = 3109
+3d8 4s 7s       - 3d8 4s 6g        parameters 4826 -  4827           Code = 3109
+3d8 4s 7s       - 3d8 4p2          parameter  4828                   Code = 7123
+3d8 4s 7s       - 3d8 4p 5p        parameters 4829 -  4830           Code = 3106
+3d8 4s 8s       - 3d8 4s 4d        parameters 4831 -  4836           Code = 3109
+3d8 4s 8s       - 3d8 4s 5d        parameters 4837 -  4842           Code = 3109
+3d8 4s 8s       - 3d8 4s 6d        parameters 4843 -  4848           Code = 3109
+3d8 4s 8s       - 3d8 4s 7d        parameters 4849 -  4854           Code = 3109
+3d8 4s 8s       - 3d8 4s 5g        parameters 4855 -  4856           Code = 3109
+3d8 4s 8s       - 3d8 4s 6g        parameters 4857 -  4858           Code = 3109
+3d8 4s 8s       - 3d8 4p2          parameter  4859                   Code = 7123
+3d8 4s 8s       - 3d8 4p 5p        parameters 4860 -  4861           Code = 3106
+3d8 4s 4d       - 3d8 4s 5d        parameters 4862 -  4880           Code = 3109
+3d8 4s 4d       - 3d8 4s 6d        parameters 4881 -  4899           Code = 3109
+3d8 4s 4d       - 3d8 4s 7d        parameters 4900 -  4918           Code = 3109
+3d8 4s 4d       - 3d8 4s 5g        parameters 4919 -  4928           Code = 3109
+3d8 4s 4d       - 3d8 4s 6g        parameters 4929 -  4938           Code = 3109
+3d8 4s 4d       - 3d8 4p2          parameter  4939                   Code = 7123
+3d8 4s 4d       - 3d8 4p 5p        parameters 4940 -  4941           Code = 3106
+3d8 4s 5d       - 3d8 4s 6d        parameters 4942 -  4960           Code = 3109
+3d8 4s 5d       - 3d8 4s 7d        parameters 4961 -  4979           Code = 3109
+3d8 4s 5d       - 3d8 4s 5g        parameters 4980 -  4989           Code = 3109
+3d8 4s 5d       - 3d8 4s 6g        parameters 4990 -  4999           Code = 3109
+3d8 4s 5d       - 3d8 4p2          parameter  5000                   Code = 7123
+3d8 4s 5d       - 3d8 4p 5p        parameters 5001 -  5002           Code = 3106
+3d8 4s 6d       - 3d8 4s 7d        parameters 5003 -  5021           Code = 3109
+3d8 4s 6d       - 3d8 4s 5g        parameters 5022 -  5031           Code = 3109
+3d8 4s 6d       - 3d8 4s 6g        parameters 5032 -  5041           Code = 3109
+3d8 4s 6d       - 3d8 4p2          parameter  5042                   Code = 7123
+3d8 4s 6d       - 3d8 4p 5p        parameters 5043 -  5044           Code = 3106
+3d8 4s 7d       - 3d8 4s 5g        parameters 5045 -  5054           Code = 3109
+3d8 4s 7d       - 3d8 4s 6g        parameters 5055 -  5064           Code = 3109
+3d8 4s 7d       - 3d8 4p2          parameter  5065                   Code = 7123
+3d8 4s 7d       - 3d8 4p 5p        parameters 5066 -  5067           Code = 3106
+3d8 4s 5g       - 3d8 4s 6g        parameters 5068 -  5082           Code = 3109
+3d8 4s 5g       - 3d8 4p2          no interactions                   Code = 7123
+3d8 4s 5g       - 3d8 4p 5p        no interactions                   Code = 3106
+3d8 4s 6g       - 3d8 4p2          no interactions                   Code = 7123
+3d8 4s 6g       - 3d8 4p 5p        no interactions                   Code = 3106
+3d8 4p2         - 3d8 4p 5p        parameters 5083 -  5089           Code = 2121
