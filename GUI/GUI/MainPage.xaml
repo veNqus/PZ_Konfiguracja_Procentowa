@@ -16,10 +16,10 @@
         <Button x:Name="buttonPrzeszukajOut" Content="Przeszukaj" HorizontalAlignment="Left" Margin="50,120,0,0" VerticalAlignment="Top" Width="200" Height="100" Click="buttonPrzeszukajOut_Click" FontSize="36"/>
 
         <Label x:Name="label1" Content="Plik .Out" HorizontalAlignment="Left" Margin="400,20,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <TextBox x:Name="textBoxOut" HorizontalAlignment="Left" Height="520" Margin="400,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400"/>
+        <TextBox x:Name="textBoxOut" HorizontalAlignment="Left" Height="520" Margin="400,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Cursor="" VerticalScrollBarVisibility="Visible"/>
 
         <Label x:Name="label2" Content="Plik .Mes" HorizontalAlignment="Left" Margin="850,20,0,0" VerticalAlignment="Top" FontSize="36"/>
-        <TextBox x:Name="textBoxMes" HorizontalAlignment="Left" Height="520" Margin="850,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400"/>
+        <TextBox x:Name="textBoxMes" HorizontalAlignment="Left" Height="520" Margin="850,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" VerticalScrollBarVisibility="Visible"/>
         
     </Grid>
 </Page>
