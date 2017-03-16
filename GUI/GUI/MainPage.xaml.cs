@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,11 +29,26 @@ namespace GUI
 
         private void buttonPrzeszukajOut_Click(object sender, RoutedEventArgs e)
         {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Out File (*.out)|*.out";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                textBoxOut.Text = File.ReadAllText(openFileDialog.FileName);
+
+            }
+
             MessageBox.Show("kliekłę xD");
         }
 
         private void buttonPrzeszukajMes_Click(object sender, RoutedEventArgs e)
         {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Mes File (*.mes)|*.mes";
+            if (openFileDialog.ShowDialog() == true)
+            {
+                textBoxMes.Text = File.ReadAllText(openFileDialog.FileName);
+
+            }
             MessageBox.Show("też klikłę xD");
         }
     }
