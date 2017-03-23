@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Text.RegularExpressions;
 
 namespace GUI
 {
@@ -33,11 +34,22 @@ namespace GUI
             openFileDialog.Filter = "Out File (*.out)|*.out";
             if (openFileDialog.ShowDialog() == true)
             {
-                textBoxOut.Text = File.ReadAllText(openFileDialog.FileName);
-
+                Regex parts = new Regex(@"( *\( +\d+\, +\d+\) +-*\d.\d+\/)+");
+                string link = openFileDialog.FileName;
+                //StreamReader reader = new StreamReader(File.ReadAllText(openFileDialog.FileName));
+                //StreamReader reader = new StreamReader(@"../../../../Pliki/Ni-even.out");
+                StreamReader reader = new StreamReader(@link); 
+                
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    Match match = parts.Match(line);
+                    if (match.Success)
+                    {
+                        textBoxOut.Items.Add(match);
+                    }
+                }
             }
-
-            MessageBox.Show("kliekłę xD");
         }
 
         private void buttonPrzeszukajMes_Click(object sender, RoutedEventArgs e)
@@ -47,9 +59,12 @@ namespace GUI
             if (openFileDialog.ShowDialog() == true)
             {
                 textBoxMes.Text = File.ReadAllText(openFileDialog.FileName);
-
             }
-            MessageBox.Show("też klikłę xD");
+        }
+
+        private void textBoxOut_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            MessageBox.Show(textBoxOut.SelectedItem.ToString());
         }
     }
 }
