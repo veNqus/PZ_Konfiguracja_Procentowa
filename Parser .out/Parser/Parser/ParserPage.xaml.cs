@@ -22,11 +22,11 @@ namespace Parser
     /// </summary>
     public partial class ParserPage : Page
     {
-        int value1 = 1;
-        int value2 = 2;
-            Regex parts = new Regex(@"( *\( +\d+\, +\d+\) +-*\d.\d+\/)+"); 
+ 
+       
+
       //  Regex parts = new Regex(@"( *\( +\b(value1)\, +\d+\) +-*\d.\d+\/)+");
-        StreamReader reader = new StreamReader("PlikTestowy.txt.txt");
+        
         public ParserPage()
         {
             InitializeComponent();
@@ -34,16 +34,25 @@ namespace Parser
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
-            string line;
-            while ((line = reader.ReadLine()) != null)
+            int value0 = Convert.ToInt32(value0blok.Text);
+            int value1 = Convert.ToInt32(value1blok.Text);
+            int value2 = Convert.ToInt32(value2blok.Text);
+            for(int i=value1;i<=value2;i++)
             {
-                Match match = parts.Match(line);
-                if (match.Success)
+                StreamReader reader = new StreamReader("Ni-even.txt");
+                string regexstring = @"( *\( +" + value0 + @", +" + i + @"\) +-*\d.\d+\/)+";
+                Regex parts = new Regex(regexstring, RegexOptions.IgnoreCase);
+                string line;
+                while ((line = reader.ReadLine()) != null)
                 {
-                    listBox.Items.Add(match);
+                    Match match = parts.Match(line);
+                    if (match.Success)
+                    {
+                        listBox.Items.Add(match);
+                    }
                 }
             }
+
         }
     }
 }
