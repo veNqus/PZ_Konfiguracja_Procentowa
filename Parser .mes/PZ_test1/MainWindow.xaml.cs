@@ -30,31 +30,44 @@ namespace PZ_test1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            string wynik = "";
-            string wynik_submatrix = "";
+            string wynik_configuration = "";
+            string wynik_configuration_submatrix = "";
             int conf_length;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Mes File (*.mes)|*.mes";
             if (openFileDialog.ShowDialog() == true)
             {
-                //plik_mes.Text = File.ReadAllTextopenFileDialog.FileName);
+
+                string link = openFileDialog.FileName;
                 string pattern_configuration = @"(configuration)(\s\b\w{1,4}\b){1,4}";
-                string pattern_submatrix = @"(submatrix)\s+\d+(terms)\s+\d+\s(-)\s+\d+";
-                Regex reg = new Regex(pattern_configuration, RegexOptions.IgnoreCase);
-                Match match = reg.Match(File.ReadAllText(openFileDialog.FileName));
-              //  Regex reg_submatrix = new Regex(pattern_submatrix, RegexOptions.IgnoreCase);
-              //  Match match_submatrix = reg_submatrix.Match(File.ReadAllText(openFileDialog.FileName));              
-                int matchCount = 0;
-                while (match.Success)
+                string pattern_submatrix = @"((submatrix)\s+\d+\s+(terms)\s+\d+\s(-)\s+\d+)";
+
+                Regex reg_configuration = new Regex(pattern_configuration, RegexOptions.IgnoreCase);
+                Regex reg_submatrix = new Regex(pattern_submatrix, RegexOptions.IgnoreCase);
+
+                StreamReader reader = new StreamReader(@link);
+
+                string line;
+
+                while((line = reader.ReadLine())!= null)
                 {
-                    wynik = match.ToString();
-                    conf_length = wynik.Length;
-                    wynik=wynik.Substring(14,conf_length-14);
-                    plik_mes.Text += "Match" + (++matchCount) + " " + wynik + "\n";
-                  //  while(match_submatrix.Success)
-                   
-                    match = match.NextMatch();
+                    Match match_configuration = reg_configuration.Match(line);
+                    Match match_submatrix = reg_submatrix.Match(line);
+                    if (match_configuration.Success)
+                    {
+                        wynik_configuration = match_configuration.ToString();
+                        conf_length = wynik_configuration.Length;
+                        wynik_configuration = wynik_configuration.Substring(14, conf_length - 14);
+                        plik_mes.Text +="\n"+ wynik_configuration + "\n";
+                    }
+                    else if(match_submatrix.Success)
+                    {
+                        wynik_configuration = match_submatrix.ToString();
+                        plik_mes.Text += "submatrix" + wynik_configuration + "\n";
+                    }
                 }
+              
+               
 
             }
         }
