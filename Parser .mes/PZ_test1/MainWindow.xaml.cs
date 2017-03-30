@@ -31,7 +31,8 @@ namespace PZ_test1
         private void button_Click(object sender, RoutedEventArgs e)
         {
             string wynik_configuration = "";
-            string wynik_configuration_submatrix = "";
+            string wynik_submatrix = "";
+            string nr_submatrix, min_submatrix, max_submatrix;
             int conf_length;
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "Mes File (*.mes)|*.mes";
@@ -49,7 +50,7 @@ namespace PZ_test1
 
                 string line;
 
-                while((line = reader.ReadLine())!= null)
+                while ((line = reader.ReadLine()) != null)
                 {
                     Match match_configuration = reg_configuration.Match(line);
                     Match match_submatrix = reg_submatrix.Match(line);
@@ -58,16 +59,20 @@ namespace PZ_test1
                         wynik_configuration = match_configuration.ToString();
                         conf_length = wynik_configuration.Length;
                         wynik_configuration = wynik_configuration.Substring(14, conf_length - 14);
-                        plik_mes.Text +="\n"+ wynik_configuration + "\n";
+                        plik_mes.Text += "\n" + wynik_configuration + "\n";
                     }
-                    else if(match_submatrix.Success)
+                    else if (match_submatrix.Success)
                     {
-                        wynik_configuration = match_submatrix.ToString();
-                        plik_mes.Text += "submatrix" + wynik_configuration + "\n";
+                        wynik_submatrix = match_submatrix.ToString();
+                        nr_submatrix = wynik_submatrix.Substring(10, 2);
+                        min_submatrix = wynik_submatrix.Substring(19, 4);
+                        max_submatrix = wynik_submatrix.Substring(26, 4);
+
+                        plik_mes.Text += "submatrix" + nr_submatrix + " " + min_submatrix + " " + max_submatrix + "\n";
                     }
                 }
-              
-               
+
+
 
             }
         }
