@@ -29,7 +29,7 @@ namespace GUI
         }
 
         StreamReader reader;
-        string link;
+        string link="";
 
         private void buttonPrzeszukajOut_Click(object sender, RoutedEventArgs e)
         {
@@ -42,18 +42,39 @@ namespace GUI
                 link = openFileDialog.FileName;
                 //StreamReader reader = new StreamReader(File.ReadAllText(openFileDialog.FileName));
                 //StreamReader reader = new StreamReader(@"../../../../Pliki/Ni-even.out");
-                reader = new StreamReader(@link); 
+                reader = new StreamReader(@link);
                 
+                string reg = @"((ITERATION NO.)\s+)" + 1; 
+                Regex reg_S = new Regex(reg, RegexOptions.IgnoreCase);
+                string reg2 = @"((ITERATION NO)\s+)" + 1;
+                Regex reg_S2 = new Regex(reg, RegexOptions.IgnoreCase);
                 string line;
+                Regex reg3 = new Regex(@" +\d+ +\d+");
+                bool flag = false;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    //Match match = parts.Match(line);
-                    //if (match.Success)
-                    //{
-                    //textBoxOut.Items.Add(match);
-                    //}
-                    textBoxOut.Items.Add(line);
+                    //textBoxOut.Items.Add(line);
+                    Match Match__submatrix = reg_S.Match(line);
+                    if (Match__submatrix.Success || flag)
+                    {
+                        flag = true;
+                        do
+                        {
+                            line = reader.ReadLine();
+                            Match Match__submatrix3 = reg3.Match(line);
+                            if (Match__submatrix3.Success)
+                                textBoxOut.Items.Add(line);
+                            Match Match__submatrix2 = reg_S2.Match(line);
+                            if (Match__submatrix2.Success)
+                            {
+                                flag = false;
+                            }
+                        } while (flag);
+
+                    }
                 }
+
+
             }
         }
 
@@ -118,64 +139,68 @@ namespace GUI
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            textBoxOut.Items.Clear();
-            int value_submatrix = Convert.ToInt32(value0blok.Text);
-            int value_poziom = Convert.ToInt32(poziom.Text);
-            int value_od = Convert.ToInt32(value1blok.Text);
-            int value_do = Convert.ToInt32(value2blok.Text);
-            int value_next_submatrix = value_submatrix + 1;
-            int flag = 0;
-            bool flag2 = false;
-            string line;
-            reader = new StreamReader(@link);
-            string reg = @"((EIGENVECTORS,SUBMATRIX)\s+)" + value_submatrix;
-            Regex reg_S = new Regex(reg, RegexOptions.IgnoreCase);
-
-            while ((line = reader.ReadLine()) != null)
+            if (link != "")
             {
-                Match Match2 = reg_S.Match(line);
-                if (Match2.Success || flag2)
+                textBoxOut.Items.Clear();
+                int value_submatrix = Convert.ToInt32(value0blok.Text);
+                int value_poziom = Convert.ToInt32(poziom.Text);
+                int value_od = Convert.ToInt32(value1blok.Text);
+                int value_do = Convert.ToInt32(value2blok.Text);
+                int value_next_submatrix = value_submatrix + 1;
+                int flag = 0;
+                bool flag2 = false;
+                string line;
+                reader = new StreamReader(@link);
+                string reg = @"((EIGENVECTORS,SUBMATRIX)\s+)" + value_submatrix;
+                Regex reg_S = new Regex(reg, RegexOptions.IgnoreCase);
+
+                while ((line = reader.ReadLine()) != null)
                 {
-                    flag2 = true;
-
-                    for (int i = value_od; i <= value_do; i++)
+                    Match Match2 = reg_S.Match(line);
+                    if (Match2.Success || flag2)
                     {
-                        string reg2 = @"((EIGENVECTORS,SUBMATRIX)\s+)" + value_next_submatrix;
-                        string regexstring = @"( *\( +" + value_poziom + @", +" + i + @"\) +-*\d.\d+\/)+";
-                        Regex parts = new Regex(regexstring, RegexOptions.IgnoreCase);
+                        flag2 = true;
 
-                        Regex reg_s2 = new Regex(reg2, RegexOptions.IgnoreCase);
-
-                        Match match = parts.Match(line);
-
-                        Match Match3 = reg_s2.Match(line);
-                        if (match.Success)
+                        for (int i = value_od; i <= value_do; i++)
                         {
-                            textBoxOut.Items.Add(match);
+                            string reg2 = @"((EIGENVECTORS,SUBMATRIX)\s+)" + value_next_submatrix;
+                            string regexstring = @"( *\( +" + value_poziom + @", +" + i + @"\) +-*\d.\d+\/)+";
+                            Regex parts = new Regex(regexstring, RegexOptions.IgnoreCase);
+
+                            Regex reg_s2 = new Regex(reg2, RegexOptions.IgnoreCase);
+
+                            Match match = parts.Match(line);
+
+                            Match Match3 = reg_s2.Match(line);
+                            if (match.Success)
+                            {
+                                textBoxOut.Items.Add(match);
+                            }
+                            if (Match3.Success)
+                            {
+                                flag2 = false;
+                                flag = 1;
+
+                            }
+
                         }
-                        if (Match3.Success)
+                        if (flag == 1)
                         {
-                            flag2 = false;
-                            flag = 1;
-
+                            break;
                         }
-
-                    }
-                    if (flag == 1)
-                    {
-                        break;
                     }
                 }
-
             }
+            else
+                MessageBox.Show("Najpierw wczytaj plik .out");
         }
 
         private void textBoxOut_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Regex reg = new Regex(@" +\d+ +\d+ +");
+            Regex reg = new Regex(@" +\d+ +\d+");
             string linia =textBoxOut.SelectedItem.ToString();
             Match matchKlik = reg.Match(linia);
-            MessageBox.Show(linia + "\n" + matchKlik.ToString());
+            MessageBox.Show(matchKlik.ToString());
             
             // REGEX NA POZNIEJ  +\d+ +\d+ +
         }
