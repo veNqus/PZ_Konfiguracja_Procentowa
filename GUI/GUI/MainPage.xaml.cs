@@ -172,13 +172,11 @@ namespace GUI
 
         private void textBoxOut_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            /*
-            Regex reg = new Regex(@"(+\d+ +\d+ +)");
-            string linia = textBoxOut.SelectedItem.ToString();
-            Match match = reg.Match(linia);
-
-            MessageBox.Show(linia);
-            */
+            Regex reg = new Regex(@" +\d+ +\d+ +");
+            string linia =textBoxOut.SelectedItem.ToString();
+            Match matchKlik = reg.Match(linia);
+            MessageBox.Show(linia + "\n" + matchKlik.ToString());
+            
             // REGEX NA POZNIEJ  +\d+ +\d+ +
         }
     }
