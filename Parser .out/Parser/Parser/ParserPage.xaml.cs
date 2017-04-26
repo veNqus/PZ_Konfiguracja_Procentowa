@@ -24,6 +24,8 @@ namespace Parser
     public partial class ParserPage : Page
     {
 
+        double[,,] tablica = new double[1000, 100, 1000];
+
 
 
         //  Regex parts = new Regex(@"( *\( +\b(value_od)\, +\d+\) +-*\d.\d+\/)+");
@@ -39,6 +41,7 @@ namespace Parser
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            wypełnij_tablice();
             int value_submatrix = Convert.ToInt32(value0blok.Text);
             int value_poziom = Convert.ToInt32(poziom.Text);
 
@@ -115,6 +118,7 @@ namespace Parser
             int flag = 0;
             bool flag2 = false;
             string line;
+            
            
             int sub_matrix = Convert.ToInt32(submatrix) + 1;
             StreamReader reader = new StreamReader("Ni-even.out");
@@ -175,5 +179,51 @@ namespace Parser
             return duza_suma;
 
         }
-    }
-}
+
+        public void wypełnij_tablice()
+        {
+            int last_submatrix=1;
+            StreamReader reader = new StreamReader("Ni-even.out");
+            string reg = @"((EIGENVECTORS,SUBMATRIX)\s+\d+)";
+            Regex reg_S = new Regex(reg, RegexOptions.IgnoreCase);
+            string line;
+            while ((line = reader.ReadLine()) != null)
+            {
+                Match Match__submatrix = reg_S.Match(line);
+                if(Match__submatrix.Success)
+                {
+                    string podmacierz = Match__submatrix.ToString().Substring(22, 3);
+                    last_submatrix = Convert.ToInt32(podmacierz);
+                }
+                // wyszukanie poziomu
+                //string regexstring = @"( *\( +\d_+"+@", +\d+"+@"\) +-*\d.\d+\/)+";
+                string test = @" \(\d+,\d+" +@"\)\d+)";
+                string regexstring = (@"( *\( +\d+\, +\d+\) +-*\d.\d+\/)+");
+
+                Regex parts = new Regex(regexstring, RegexOptions.IgnoreCase);
+                                     
+                Match match = parts.Match(line);
+
+                      
+                if (match.Success)
+                {
+                    string poziom = match.ToString().Substring(2, 3);
+                    string numer = match.ToString().Substring(6, 3);
+                    string wartosc = match.ToString().Substring(12, 9);
+                    int poziom_int = Convert.ToInt32(poziom);
+                    int numer_int = Convert.ToInt32(numer);
+                    double wartosc_double = double.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
+                    decimal wartosc_decimal = (decimal)wartosc_double;
+                    tablica[last_submatrix, poziom_int, numer_int] = wartosc_double;
+                            //listBox.Items.Add(test2);
+
+                 }                       
+              }
+                   
+                }
+
+            }
+        }
+
+
+  
