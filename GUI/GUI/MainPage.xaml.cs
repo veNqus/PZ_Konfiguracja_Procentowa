@@ -197,10 +197,14 @@ namespace GUI
 
         private void textBoxOut_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            Regex reg = new Regex(@" +\d+ +\d+");
+            Regex reg = new Regex(@" *\d+ +\d+");
             string linia =textBoxOut.SelectedItem.ToString();
             Match matchKlik = reg.Match(linia);
-            MessageBox.Show(matchKlik.ToString());
+            string cokolwiek = matchKlik.ToString().Substring(0, 2);
+            int cokolwiekWartosc = Convert.ToInt32(cokolwiek);
+            string cokolwiek2 = matchKlik.ToString().Substring(3, 3);
+            int cokolwiekWartosc2 = Convert.ToInt32(cokolwiek2);
+            MessageBox.Show(cokolwiekWartosc + " " + cokolwiekWartosc2);
             
             // REGEX NA POZNIEJ  +\d+ +\d+ +
         }
