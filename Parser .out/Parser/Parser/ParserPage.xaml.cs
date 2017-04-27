@@ -24,7 +24,7 @@ namespace Parser
     public partial class ParserPage : Page
     {
 
-        double[,,] tablica = new double[1000, 100, 1000];
+        decimal[,,] tablica = new decimal[20, 100, 10000];
 
 
 
@@ -115,68 +115,15 @@ namespace Parser
         {
             decimal suma = 0;
             decimal duza_suma = 0;
-            int flag = 0;
-            bool flag2 = false;
-            string line;
-            
-           
-            int sub_matrix = Convert.ToInt32(submatrix) + 1;
-            StreamReader reader = new StreamReader("Ni-even.out");
-            // wyszukanie właściwej podmacierzy
-            string reg = @"((EIGENVECTORS,SUBMATRIX)\s+)" + submatrix;
-            Regex reg_S = new Regex(reg, RegexOptions.IgnoreCase);
-
-            while ((line = reader.ReadLine()) != null)
+            int podmacierz = Convert.ToInt32(submatrix);
+            for (int i=Convert.ToInt32(od);i <= Convert.ToInt32(do_poziomu);i++)
             {
-                
-                Match Match__submatrix = reg_S.Match(line);
-                if (Match__submatrix.Success || flag2)
-                {
-                    flag2 = true;
-
-                    for (int i = Convert.ToInt32(od); i <= Convert.ToInt32(do_poziomu); i++)
-                    {
-
-
-                        // wyszukanie podmacierzy następnej
-                        string reg2 = @"((EIGENVECTORS,SUBMATRIX)\s+)" + sub_matrix;
-                        // wyszukanie poziomu
-                        string regexstring = @"( *\( +" + poziom + @", +" + i + @"\) +-*\d.\d+\/)+";
-                        Regex parts = new Regex(regexstring, RegexOptions.IgnoreCase);
-
-                        Regex reg_s2 = new Regex(reg2, RegexOptions.IgnoreCase);
-
-                        Match match = parts.Match(line);
-
-                        Match Match__next_submatrix = reg_s2.Match(line);
-                        if (match.Success)
-                        {
-                            string wartosc = match.ToString().Substring(12,9);
-                            double wartosc_double = double.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
-                            decimal wartosc_decimal = (decimal)wartosc_double;
-                            suma += wartosc_decimal * wartosc_decimal;
-                            //listBox.Items.Add(test2);
-
-                        }
-                        if (Match__next_submatrix.Success)
-                        {
-                            
-                            flag2 = false;
-                            flag = 1;
-                            break;
-                        }
-                    }
-                    if (flag == 1)
-                    {
-                        duza_suma += suma;
-                        listBox.Items.Add(suma);
-                        suma = 0;
-                        break;
-                    }
-                }
+                suma += (tablica[podmacierz, poziom, i]) * (tablica[podmacierz, poziom, i]);
 
             }
-            return duza_suma;
+            listBox.Items.Add(suma);    
+
+            return suma;
 
         }
 
@@ -207,14 +154,27 @@ namespace Parser
                       
                 if (match.Success)
                 {
-                    string poziom = match.ToString().Substring(2, 3);
-                    string numer = match.ToString().Substring(6, 3);
-                    string wartosc = match.ToString().Substring(12, 9);
-                    int poziom_int = Convert.ToInt32(poziom);
-                    int numer_int = Convert.ToInt32(numer);
-                    double wartosc_double = double.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
-                    decimal wartosc_decimal = (decimal)wartosc_double;
-                    tablica[last_submatrix, poziom_int, numer_int] = wartosc_double;
+                    for (int k=0;k<6;k++)
+                    {
+                        try
+                        {
+                            string poziom = match.ToString().Substring(2+(k*22), 3);
+                            string numer = match.ToString().Substring(6+(k*22), 3);
+                            string wartosc = match.ToString().Substring(12+(k*22), 9);
+                            int poziom_int = Convert.ToInt32(poziom);
+                            int numer_int = Convert.ToInt32(numer);
+                            decimal wartosc_decimal = decimal.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
+                            //    decimal wartosc_decimal = (decimal)wartosc_double;
+                            tablica[last_submatrix, poziom_int, numer_int] = wartosc_decimal;
+                        }
+                        catch
+                        {
+                            break;
+                        }
+                        
+                    }
+                    string tekst = match.ToString();
+                    
                             //listBox.Items.Add(test2);
 
                  }                       
