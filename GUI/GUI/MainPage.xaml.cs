@@ -204,8 +204,16 @@ namespace GUI
             int cokolwiekWartosc = Convert.ToInt32(cokolwiek);
             string cokolwiek2 = matchKlik.ToString().Substring(3, 3);
             int cokolwiekWartosc2 = Convert.ToInt32(cokolwiek2);
-            MessageBox.Show(cokolwiekWartosc + " " + cokolwiekWartosc2);
-            
+            //MessageBox.Show(cokolwiekWartosc + " " + cokolwiekWartosc2);
+
+
+
+            //Uri uri = new Uri("EndPage.xaml?par1="+cokolwiekWartosc+"&par2="cokolwiekWarosc2, UriKind.Relative);
+            //this.NavigationService.Navigate(uri);
+
+            EndPage endPage = new EndPage(cokolwiekWartosc, cokolwiekWartosc2);
+            this.NavigationService.Navigate(endPage);
+
             // REGEX NA POZNIEJ  +\d+ +\d+ +
         }
     }
