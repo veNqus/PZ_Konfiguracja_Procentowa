@@ -91,15 +91,15 @@ namespace Parser
                         if(Convert.ToInt32(nr_submatrix) == value_submatrix)
                         {
                             // tu jest OK w parser OUT jest błąd na zatydzień do sprawdzenia
-                            listBox.Items.Add(last_conf);
-                            cala_suma += szukaj_w_out(nr_submatrix, value_poziom, min_submatrix, max_submatrix);
+                            //listBox.Items.Add(last_conf);
+                            cala_suma += szukaj_w_out(nr_submatrix, value_poziom, min_submatrix, max_submatrix, last_conf);
                             
                         }
 
                         //plik_mes.Text += "submatrix" + nr_submatrix + " " + min_submatrix + " " + max_submatrix + "\n";
                     }
                 }
-                MessageBox.Show(cala_suma.ToString());
+                MessageBox.Show(Decimal.Round(cala_suma, 2).ToString());
 
 
 
@@ -111,17 +111,21 @@ namespace Parser
 
 
         }
-        public decimal szukaj_w_out(string submatrix, int poziom, string od, string do_poziomu)
+        public decimal szukaj_w_out(string submatrix, int poziom, string od, string do_poziomu, string last_conf)
         {
             decimal suma = 0;
             decimal duza_suma = 0;
             int podmacierz = Convert.ToInt32(submatrix);
-            for (int i=Convert.ToInt32(od);i <= Convert.ToInt32(do_poziomu);i++)
+            for (int i = Convert.ToInt32(od); i <= Convert.ToInt32(do_poziomu); i++)
             {
                 suma += (tablica[podmacierz, poziom, i]) * (tablica[podmacierz, poziom, i]);
 
             }
-            listBox.Items.Add(suma);    
+            suma *= 100;
+            suma = Decimal.Round(suma, 2);
+            if (suma >= (decimal)0.01) {              
+                listBox.Items.Add(last_conf + ": " + suma);
+            } 
 
             return suma;
 
