@@ -134,7 +134,7 @@ namespace Parser
         public void wypełnij_tablice()
         {
             int last_submatrix=1;
-            StreamReader reader = new StreamReader("Ni-even.out");
+            StreamReader reader = new StreamReader("Ta.out");
             string reg = @"((EIGENVECTORS,SUBMATRIX)\s+\d+)";
             Regex reg_S = new Regex(reg, RegexOptions.IgnoreCase);
             string line;
@@ -162,9 +162,9 @@ namespace Parser
                     {
                         try
                         {
-                            string poziom = match.ToString().Substring(2+(k*22), 3);
-                            string numer = match.ToString().Substring(6+(k*22), 3);
-                            string wartosc = match.ToString().Substring(12+(k*22), 9);
+                            string poziom = match.ToString().Substring(2+(k*23), 3);
+                            string numer = match.ToString().Substring(6+(k*23), 4);
+                            string wartosc = match.ToString().Substring(13+(k*23), 9);
                             int poziom_int = Convert.ToInt32(poziom);
                             int numer_int = Convert.ToInt32(numer);
                             decimal wartosc_decimal = decimal.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
@@ -173,7 +173,21 @@ namespace Parser
                         }
                         catch
                         {
-                            break;
+                            try
+                            {
+                                string poziom = match.ToString().Substring(2 + (k * 22), 3);
+                                string numer = match.ToString().Substring(6 + (k * 22), 3);
+                                string wartosc = match.ToString().Substring(12 + (k * 22), 9);
+                                int poziom_int = Convert.ToInt32(poziom);
+                                int numer_int = Convert.ToInt32(numer);
+                                decimal wartosc_decimal = decimal.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
+                                //    decimal wartosc_decimal = (decimal)wartosc_double;
+                                tablica[last_submatrix, poziom_int, numer_int] = wartosc_decimal;
+                            }
+                            catch
+                            {
+                                break;
+                            }
                         }
                         
                     }
