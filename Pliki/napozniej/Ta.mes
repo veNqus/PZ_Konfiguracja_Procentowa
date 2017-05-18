@@ -1,0 +1,745 @@
+
+ configuration 5d4 5f          - parameters :     1 -  189
+
+ submatrix  1 terms    1 -   27
+ submatrix  2 terms    1 -   48
+ submatrix  3 terms    1 -   61
+ submatrix  4 terms    1 -   63
+ submatrix  5 terms    1 -   54
+ submatrix  6 terms    1 -   42
+ submatrix  7 terms    1 -   28
+ submatrix  8 terms    1 -   15
+ submatrix  9 terms    1 -    6
+ submatrix 10 terms    1 -    2
+
+
+ configuration 5d4 6p          - parameters :   190 -  342
+
+ submatrix  1 terms   28 -   48
+ submatrix  2 terms   49 -   83
+ submatrix  3 terms   62 -  100
+ submatrix  4 terms   64 -   99
+ submatrix  5 terms   55 -   80
+ submatrix  6 terms   43 -   57
+ submatrix  7 terms   29 -   34
+ submatrix  8 terms   16 -   17
+
+
+ configuration 5d4 7p          - parameters :   343 -  495
+
+ submatrix  1 terms   49 -   69
+ submatrix  2 terms   84 -  118
+ submatrix  3 terms  101 -  139
+ submatrix  4 terms  100 -  135
+ submatrix  5 terms   81 -  106
+ submatrix  6 terms   58 -   72
+ submatrix  7 terms   35 -   40
+ submatrix  8 terms   18 -   19
+
+
+ configuration 5d4 8p          - parameters :   496 -  648
+
+ submatrix  1 terms   70 -   90
+ submatrix  2 terms  119 -  153
+ submatrix  3 terms  140 -  178
+ submatrix  4 terms  136 -  171
+ submatrix  5 terms  107 -  132
+ submatrix  6 terms   73 -   87
+ submatrix  7 terms   41 -   46
+ submatrix  8 terms   20 -   21
+
+
+ configuration 5d4 9p          - parameters :   649 -  801
+
+ submatrix  1 terms   91 -  111
+ submatrix  2 terms  154 -  188
+ submatrix  3 terms  179 -  217
+ submatrix  4 terms  172 -  207
+ submatrix  5 terms  133 -  158
+ submatrix  6 terms   88 -  102
+ submatrix  7 terms   47 -   52
+ submatrix  8 terms   22 -   23
+
+
+ configuration 5d4 10p         - parameters :   802 -  954
+
+ submatrix  1 terms  112 -  132
+ submatrix  2 terms  189 -  223
+ submatrix  3 terms  218 -  256
+ submatrix  4 terms  208 -  243
+ submatrix  5 terms  159 -  184
+ submatrix  6 terms  103 -  117
+ submatrix  7 terms   53 -   58
+ submatrix  8 terms   24 -   25
+
+
+ configuration 5d4 11p         - parameters :   955 - 1107
+
+ submatrix  1 terms  133 -  153
+ submatrix  2 terms  224 -  258
+ submatrix  3 terms  257 -  295
+ submatrix  4 terms  244 -  279
+ submatrix  5 terms  185 -  210
+ submatrix  6 terms  118 -  132
+ submatrix  7 terms   59 -   64
+ submatrix  8 terms   26 -   27
+
+
+ configuration 5d4 12p         - parameters :  1108 - 1260
+
+ submatrix  1 terms  154 -  174
+ submatrix  2 terms  259 -  293
+ submatrix  3 terms  296 -  334
+ submatrix  4 terms  280 -  315
+ submatrix  5 terms  211 -  236
+ submatrix  6 terms  133 -  147
+ submatrix  7 terms   65 -   70
+ submatrix  8 terms   28 -   29
+
+
+ configuration 5d3 5f 6s       - parameters :  1261 - 1490
+
+ submatrix  1 terms  175 -  206
+ submatrix  2 terms  294 -  352
+ submatrix  3 terms  335 -  407
+ submatrix  4 terms  316 -  389
+ submatrix  5 terms  237 -  301
+ submatrix  6 terms  148 -  195
+ submatrix  7 terms   71 -  100
+ submatrix  8 terms   30 -   45
+ submatrix  9 terms    7 -   12
+ submatrix 10 terms    3 -    3
+
+
+ configuration 5d3 6s 6p       - parameters :  1491 - 1664
+
+ submatrix  1 terms  207 -  232
+ submatrix  2 terms  353 -  396
+ submatrix  3 terms  408 -  456
+ submatrix  4 terms  390 -  431
+ submatrix  5 terms  302 -  330
+ submatrix  6 terms  196 -  211
+ submatrix  7 terms  101 -  106
+ submatrix  8 terms   46 -   46
+
+
+ configuration 5d3 6s 7p       - parameters :  1665 - 1838
+
+ submatrix  1 terms  233 -  258
+ submatrix  2 terms  397 -  440
+ submatrix  3 terms  457 -  505
+ submatrix  4 terms  432 -  473
+ submatrix  5 terms  331 -  359
+ submatrix  6 terms  212 -  227
+ submatrix  7 terms  107 -  112
+ submatrix  8 terms   47 -   47
+
+
+ configuration 5d3 6s 8p       - parameters :  1839 - 2012
+
+ submatrix  1 terms  259 -  284
+ submatrix  2 terms  441 -  484
+ submatrix  3 terms  506 -  554
+ submatrix  4 terms  474 -  515
+ submatrix  5 terms  360 -  388
+ submatrix  6 terms  228 -  243
+ submatrix  7 terms  113 -  118
+ submatrix  8 terms   48 -   48
+
+
+ configuration 5d3 6s 9p       - parameters :  2013 - 2186
+
+ submatrix  1 terms  285 -  310
+ submatrix  2 terms  485 -  528
+ submatrix  3 terms  555 -  603
+ submatrix  4 terms  516 -  557
+ submatrix  5 terms  389 -  417
+ submatrix  6 terms  244 -  259
+ submatrix  7 terms  119 -  124
+ submatrix  8 terms   49 -   49
+
+
+ configuration 5d3 6s 10p      - parameters :  2187 - 2360
+
+ submatrix  1 terms  311 -  336
+ submatrix  2 terms  529 -  572
+ submatrix  3 terms  604 -  652
+ submatrix  4 terms  558 -  599
+ submatrix  5 terms  418 -  446
+ submatrix  6 terms  260 -  275
+ submatrix  7 terms  125 -  130
+ submatrix  8 terms   50 -   50
+
+
+ configuration 5d3 6s 11p      - parameters :  2361 - 2534
+
+ submatrix  1 terms  337 -  362
+ submatrix  2 terms  573 -  616
+ submatrix  3 terms  653 -  701
+ submatrix  4 terms  600 -  641
+ submatrix  5 terms  447 -  475
+ submatrix  6 terms  276 -  291
+ submatrix  7 terms  131 -  136
+ submatrix  8 terms   51 -   51
+
+
+ configuration 5d3 6s 12p      - parameters :  2535 - 2708
+
+ submatrix  1 terms  363 -  388
+ submatrix  2 terms  617 -  660
+ submatrix  3 terms  702 -  750
+ submatrix  4 terms  642 -  683
+ submatrix  5 terms  476 -  504
+ submatrix  6 terms  292 -  307
+ submatrix  7 terms  137 -  142
+ submatrix  8 terms   52 -   52
+
+
+ configuration 5d3 6p 6d       - parameters :  2709 - 2798
+
+ submatrix  1 terms  389 -  481
+ submatrix  2 terms  661 -  821
+ submatrix  3 terms  751 -  940
+ submatrix  4 terms  684 -  863
+ submatrix  5 terms  505 -  646
+ submatrix  6 terms  308 -  401
+ submatrix  7 terms  143 -  194
+ submatrix  8 terms   53 -   75
+ submatrix  9 terms   13 -   19
+ submatrix 10 terms    4 -    4
+
+
+ configuration 5d3 6p 7s       - parameters :  2799 - 2977
+
+ submatrix  1 terms  482 -  507
+ submatrix  2 terms  822 -  865
+ submatrix  3 terms  941 -  989
+ submatrix  4 terms  864 -  905
+ submatrix  5 terms  647 -  675
+ submatrix  6 terms  402 -  417
+ submatrix  7 terms  195 -  200
+ submatrix  8 terms   76 -   76
+
+
+ configuration 5d2 5f 6s2      - parameters :  2978 - 3159
+
+ submatrix  1 terms  508 -  514
+ submatrix  2 terms  866 -  878
+ submatrix  3 terms  990 - 1005
+ submatrix  4 terms  906 -  921
+ submatrix  5 terms  676 -  688
+ submatrix  6 terms  418 -  426
+ submatrix  7 terms  201 -  205
+ submatrix  8 terms   77 -   78
+
+
+ configuration 5d2 6s2 6p      - parameters :  3160 - 3324
+
+ submatrix  1 terms  515 -  521
+ submatrix  2 terms  879 -  889
+ submatrix  3 terms 1006 - 1016
+ submatrix  4 terms  922 -  930
+ submatrix  5 terms  689 -  693
+ submatrix  6 terms  427 -  428
+
+
+ configuration 5d2 6s2 7p      - parameters :  3325 - 3489
+
+ submatrix  1 terms  522 -  528
+ submatrix  2 terms  890 -  900
+ submatrix  3 terms 1017 - 1027
+ submatrix  4 terms  931 -  939
+ submatrix  5 terms  694 -  698
+ submatrix  6 terms  429 -  430
+
+
+ configuration 5d2 6s2 8p      - parameters :  3490 - 3654
+
+ submatrix  1 terms  529 -  535
+ submatrix  2 terms  901 -  911
+ submatrix  3 terms 1028 - 1038
+ submatrix  4 terms  940 -  948
+ submatrix  5 terms  699 -  703
+ submatrix  6 terms  431 -  432
+
+
+ configuration 5d2 6s2 9p      - parameters :  3655 - 3819
+
+ submatrix  1 terms  536 -  542
+ submatrix  2 terms  912 -  922
+ submatrix  3 terms 1039 - 1049
+ submatrix  4 terms  949 -  957
+ submatrix  5 terms  704 -  708
+ submatrix  6 terms  433 -  434
+
+
+ configuration 5d2 6s2 10p     - parameters :  3820 - 3984
+
+ submatrix  1 terms  543 -  549
+ submatrix  2 terms  923 -  933
+ submatrix  3 terms 1050 - 1060
+ submatrix  4 terms  958 -  966
+ submatrix  5 terms  709 -  713
+ submatrix  6 terms  435 -  436
+
+
+ configuration 5d2 6s2 11p     - parameters :  3985 - 4149
+
+ submatrix  1 terms  550 -  556
+ submatrix  2 terms  934 -  944
+ submatrix  3 terms 1061 - 1071
+ submatrix  4 terms  967 -  975
+ submatrix  5 terms  714 -  718
+ submatrix  6 terms  437 -  438
+
+
+ configuration 5d2 6s2 12p     - parameters :  4150 - 4314
+
+ submatrix  1 terms  557 -  563
+ submatrix  2 terms  945 -  955
+ submatrix  3 terms 1072 - 1082
+ submatrix  4 terms  976 -  984
+ submatrix  5 terms  719 -  723
+ submatrix  6 terms  439 -  440
+
+
+ configuration 5d2 6s 6p 6d    - parameters :  4315 - 4368
+
+ submatrix  1 terms  564 -  645
+ submatrix  2 terms  956 - 1096
+ submatrix  3 terms 1083 - 1244
+ submatrix  4 terms  985 - 1130
+ submatrix  5 terms  724 -  831
+ submatrix  6 terms  441 -  506
+ submatrix  7 terms  206 -  237
+ submatrix  8 terms   79 -   89
+ submatrix  9 terms   20 -   21
+
+
+ configuration 5d2 6s 6p 7s    - parameters :  4369 - 4415
+
+ submatrix  1 terms  646 -  670
+ submatrix  2 terms 1097 - 1136
+ submatrix  3 terms 1245 - 1286
+ submatrix  4 terms 1131 - 1164
+ submatrix  5 terms  832 -  852
+ submatrix  6 terms  507 -  515
+ submatrix  7 terms  238 -  239
+
+
+ configuration 5d2 6p3         - parameters :  4416 - 4462
+
+ submatrix  1 terms  671 -  689
+ submatrix  2 terms 1137 - 1168
+ submatrix  3 terms 1287 - 1320
+ submatrix  4 terms 1165 - 1192
+ submatrix  5 terms  853 -  869
+ submatrix  6 terms  516 -  524
+ submatrix  7 terms  240 -  241
+
+5d4 5f          - 5d4 6p           parameters 4463 -  4466           Code = 2102
+5d4 5f          - 5d4 7p           parameters 4467 -  4470           Code = 2102
+5d4 5f          - 5d4 8p           parameters 4471 -  4474           Code = 2102
+5d4 5f          - 5d4 9p           parameters 4475 -  4478           Code = 2102
+5d4 5f          - 5d4 10p          parameters 4479 -  4482           Code = 2102
+5d4 5f          - 5d4 11p          parameters 4483 -  4486           Code = 2102
+5d4 5f          - 5d4 12p          parameters 4487 -  4490           Code = 2102
+5d4 5f          - 5d3 5f 6s        parameters 4491 -  4513           Code = 2201
+5d4 5f          - 5d3 6s 6p        parameters 4514 -  4517           Code = 2203
+5d4 5f          - 5d3 6s 7p        parameters 4518 -  4521           Code = 2203
+5d4 5f          - 5d3 6s 8p        parameters 4522 -  4525           Code = 2203
+5d4 5f          - 5d3 6s 9p        parameters 4526 -  4529           Code = 2203
+5d4 5f          - 5d3 6s 10p       parameters 4530 -  4533           Code = 2203
+5d4 5f          - 5d3 6s 11p       parameters 4534 -  4537           Code = 2203
+5d4 5f          - 5d3 6s 12p       parameters 4538 -  4541           Code = 2203
+5d4 5f          - 5d3 6p 6d        parameters 4542 -  4549           Code = 2203
+5d4 5f          - 5d3 6p 7s        parameters 4550 -  4553           Code = 2203
+5d4 5f          - 5d2 5f 6s2       parameters 4554 -  4555           Code = 2341
+5d4 5f          - 5d2 6s2 6p       no interactions                   Code = 2313
+5d4 5f          - 5d2 6s2 7p       no interactions                   Code = 2313
+5d4 5f          - 5d2 6s2 8p       no interactions                   Code = 2313
+5d4 5f          - 5d2 6s2 9p       no interactions                   Code = 2313
+5d4 5f          - 5d2 6s2 10p      no interactions                   Code = 2313
+5d4 5f          - 5d2 6s2 11p      no interactions                   Code = 2313
+5d4 5f          - 5d2 6s2 12p      no interactions                   Code = 2313
+5d4 5f          - 5d2 6s 6p 6d     no interactions                   Code = 4304
+5d4 5f          - 5d2 6s 6p 7s     no interactions                   Code = 4304
+5d4 5f          - 5d2 6p3          no interactions                   Code = 2317
+5d4 6p          - 5d4 7p           parameters 4556 -  4564           Code = 2102
+5d4 6p          - 5d4 8p           parameters 4565 -  4573           Code = 2102
+5d4 6p          - 5d4 9p           parameters 4574 -  4582           Code = 2102
+5d4 6p          - 5d4 10p          parameters 4583 -  4591           Code = 2102
+5d4 6p          - 5d4 11p          parameters 4592 -  4600           Code = 2102
+5d4 6p          - 5d4 12p          parameters 4601 -  4609           Code = 2102
+5d4 6p          - 5d3 5f 6s        parameters 4610 -  4613           Code = 2203
+5d4 6p          - 5d3 6s 6p        parameters 4614 -  4658           Code = 2202
+5d4 6p          - 5d3 6s 7p        parameters 4659 -  4662           Code = 2203
+5d4 6p          - 5d3 6s 8p        parameters 4663 -  4666           Code = 2203
+5d4 6p          - 5d3 6s 9p        parameters 4667 -  4670           Code = 2203
+5d4 6p          - 5d3 6s 10p       parameters 4671 -  4674           Code = 2203
+5d4 6p          - 5d3 6s 11p       parameters 4675 -  4678           Code = 2203
+5d4 6p          - 5d3 6s 12p       parameters 4679 -  4682           Code = 2203
+5d4 6p          - 5d3 6p 6d        parameters 4683 -  4707           Code = 2201
+5d4 6p          - 5d3 6p 7s        parameters 4708 -  4752           Code = 2201
+5d4 6p          - 5d2 5f 6s2       no interactions                   Code = 2343
+5d4 6p          - 5d2 6s2 6p       parameters 4753 -  4757           Code = 2312
+5d4 6p          - 5d2 6s2 7p       no interactions                   Code = 2313
+5d4 6p          - 5d2 6s2 8p       no interactions                   Code = 2313
+5d4 6p          - 5d2 6s2 9p       no interactions                   Code = 2313
+5d4 6p          - 5d2 6s2 10p      no interactions                   Code = 2313
+5d4 6p          - 5d2 6s2 11p      no interactions                   Code = 2313
+5d4 6p          - 5d2 6s2 12p      no interactions                   Code = 2313
+5d4 6p          - 5d2 6s 6p 6d     parameter  4758                   Code = 4302
+5d4 6p          - 5d2 6s 6p 7s     parameter  4759                   Code = 4302
+5d4 6p          - 5d2 6p3          parameters 4760 -  4761           Code = 2316
+5d4 7p          - 5d4 8p           parameters 4762 -  4770           Code = 2102
+5d4 7p          - 5d4 9p           parameters 4771 -  4779           Code = 2102
+5d4 7p          - 5d4 10p          parameters 4780 -  4788           Code = 2102
+5d4 7p          - 5d4 11p          parameters 4789 -  4797           Code = 2102
+5d4 7p          - 5d4 12p          parameters 4798 -  4806           Code = 2102
+5d4 7p          - 5d3 5f 6s        parameters 4807 -  4810           Code = 2203
+5d4 7p          - 5d3 6s 6p        parameters 4811 -  4814           Code = 2203
+5d4 7p          - 5d3 6s 7p        parameters 4815 -  4859           Code = 2202
+5d4 7p          - 5d3 6s 8p        parameters 4860 -  4863           Code = 2203
+5d4 7p          - 5d3 6s 9p        parameters 4864 -  4867           Code = 2203
+5d4 7p          - 5d3 6s 10p       parameters 4868 -  4871           Code = 2203
+5d4 7p          - 5d3 6s 11p       parameters 4872 -  4875           Code = 2203
+5d4 7p          - 5d3 6s 12p       parameters 4876 -  4879           Code = 2203
+5d4 7p          - 5d3 6p 6d        parameters 4880 -  4887           Code = 2203
+5d4 7p          - 5d3 6p 7s        parameters 4888 -  4891           Code = 2203
+5d4 7p          - 5d2 5f 6s2       no interactions                   Code = 2343
+5d4 7p          - 5d2 6s2 6p       no interactions                   Code = 2313
+5d4 7p          - 5d2 6s2 7p       parameters 4892 -  4896           Code = 2312
+5d4 7p          - 5d2 6s2 8p       no interactions                   Code = 2313
+5d4 7p          - 5d2 6s2 9p       no interactions                   Code = 2313
+5d4 7p          - 5d2 6s2 10p      no interactions                   Code = 2313
+5d4 7p          - 5d2 6s2 11p      no interactions                   Code = 2313
+5d4 7p          - 5d2 6s2 12p      no interactions                   Code = 2313
+5d4 7p          - 5d2 6s 6p 6d     no interactions                   Code = 4304
+5d4 7p          - 5d2 6s 6p 7s     no interactions                   Code = 4304
+5d4 7p          - 5d2 6p3          no interactions                   Code = 2317
+5d4 8p          - 5d4 9p           parameters 4897 -  4905           Code = 2102
+5d4 8p          - 5d4 10p          parameters 4906 -  4914           Code = 2102
+5d4 8p          - 5d4 11p          parameters 4915 -  4923           Code = 2102
+5d4 8p          - 5d4 12p          parameters 4924 -  4932           Code = 2102
+5d4 8p          - 5d3 5f 6s        parameters 4933 -  4936           Code = 2203
+5d4 8p          - 5d3 6s 6p        parameters 4937 -  4940           Code = 2203
+5d4 8p          - 5d3 6s 7p        parameters 4941 -  4944           Code = 2203
+5d4 8p          - 5d3 6s 8p        parameters 4945 -  4989           Code = 2202
+5d4 8p          - 5d3 6s 9p        parameters 4990 -  4993           Code = 2203
+5d4 8p          - 5d3 6s 10p       parameters 4994 -  4997           Code = 2203
+5d4 8p          - 5d3 6s 11p       parameters 4998 -  5001           Code = 2203
+5d4 8p          - 5d3 6s 12p       parameters 5002 -  5005           Code = 2203
+5d4 8p          - 5d3 6p 6d        parameters 5006 -  5013           Code = 2203
+5d4 8p          - 5d3 6p 7s        parameters 5014 -  5017           Code = 2203
+5d4 8p          - 5d2 5f 6s2       no interactions                   Code = 2343
+5d4 8p          - 5d2 6s2 6p       no interactions                   Code = 2313
+5d4 8p          - 5d2 6s2 7p       no interactions                   Code = 2313
+5d4 8p          - 5d2 6s2 8p       parameters 5018 -  5022           Code = 2312
+5d4 8p          - 5d2 6s2 9p       no interactions                   Code = 2313
+5d4 8p          - 5d2 6s2 10p      no interactions                   Code = 2313
+5d4 8p          - 5d2 6s2 11p      no interactions                   Code = 2313
+5d4 8p          - 5d2 6s2 12p      no interactions                   Code = 2313
+5d4 8p          - 5d2 6s 6p 6d     no interactions                   Code = 4304
+5d4 8p          - 5d2 6s 6p 7s     no interactions                   Code = 4304
+5d4 8p          - 5d2 6p3          no interactions                   Code = 2317
+5d4 9p          - 5d4 10p          parameters 5023 -  5031           Code = 2102
+5d4 9p          - 5d4 11p          parameters 5032 -  5040           Code = 2102
+5d4 9p          - 5d4 12p          parameters 5041 -  5049           Code = 2102
+5d4 9p          - 5d3 5f 6s        parameters 5050 -  5053           Code = 2203
+5d4 9p          - 5d3 6s 6p        parameters 5054 -  5057           Code = 2203
+5d4 9p          - 5d3 6s 7p        parameters 5058 -  5061           Code = 2203
+5d4 9p          - 5d3 6s 8p        parameters 5062 -  5065           Code = 2203
+5d4 9p          - 5d3 6s 9p        parameters 5066 -  5110           Code = 2202
+5d4 9p          - 5d3 6s 10p       parameters 5111 -  5114           Code = 2203
+5d4 9p          - 5d3 6s 11p       parameters 5115 -  5118           Code = 2203
+5d4 9p          - 5d3 6s 12p       parameters 5119 -  5122           Code = 2203
+5d4 9p          - 5d3 6p 6d        parameters 5123 -  5130           Code = 2203
+5d4 9p          - 5d3 6p 7s        parameters 5131 -  5134           Code = 2203
+5d4 9p          - 5d2 5f 6s2       no interactions                   Code = 2343
+5d4 9p          - 5d2 6s2 6p       no interactions                   Code = 2313
+5d4 9p          - 5d2 6s2 7p       no interactions                   Code = 2313
+5d4 9p          - 5d2 6s2 8p       no interactions                   Code = 2313
+5d4 9p          - 5d2 6s2 9p       parameters 5135 -  5139           Code = 2312
+5d4 9p          - 5d2 6s2 10p      no interactions                   Code = 2313
+5d4 9p          - 5d2 6s2 11p      no interactions                   Code = 2313
+5d4 9p          - 5d2 6s2 12p      no interactions                   Code = 2313
+5d4 9p          - 5d2 6s 6p 6d     no interactions                   Code = 4304
+5d4 9p          - 5d2 6s 6p 7s     no interactions                   Code = 4304
+5d4 9p          - 5d2 6p3          no interactions                   Code = 2317
+5d4 10p         - 5d4 11p          parameters 5140 -  5148           Code = 2102
+5d4 10p         - 5d4 12p          parameters 5149 -  5157           Code = 2102
+5d4 10p         - 5d3 5f 6s        parameters 5158 -  5161           Code = 2203
+5d4 10p         - 5d3 6s 6p        parameters 5162 -  5165           Code = 2203
+5d4 10p         - 5d3 6s 7p        parameters 5166 -  5169           Code = 2203
+5d4 10p         - 5d3 6s 8p        parameters 5170 -  5173           Code = 2203
+5d4 10p         - 5d3 6s 9p        parameters 5174 -  5177           Code = 2203
+5d4 10p         - 5d3 6s 10p       parameters 5178 -  5222           Code = 2202
+5d4 10p         - 5d3 6s 11p       parameters 5223 -  5226           Code = 2203
+5d4 10p         - 5d3 6s 12p       parameters 5227 -  5230           Code = 2203
+5d4 10p         - 5d3 6p 6d        parameters 5231 -  5238           Code = 2203
+5d4 10p         - 5d3 6p 7s        parameters 5239 -  5242           Code = 2203
+5d4 10p         - 5d2 5f 6s2       no interactions                   Code = 2343
+5d4 10p         - 5d2 6s2 6p       no interactions                   Code = 2313
+5d4 10p         - 5d2 6s2 7p       no interactions                   Code = 2313
+5d4 10p         - 5d2 6s2 8p       no interactions                   Code = 2313
+5d4 10p         - 5d2 6s2 9p       no interactions                   Code = 2313
+5d4 10p         - 5d2 6s2 10p      parameters 5243 -  5247           Code = 2312
+5d4 10p         - 5d2 6s2 11p      no interactions                   Code = 2313
+5d4 10p         - 5d2 6s2 12p      no interactions                   Code = 2313
+5d4 10p         - 5d2 6s 6p 6d     no interactions                   Code = 4304
+5d4 10p         - 5d2 6s 6p 7s     no interactions                   Code = 4304
+5d4 10p         - 5d2 6p3          no interactions                   Code = 2317
+5d4 11p         - 5d4 12p          parameters 5248 -  5256           Code = 2102
+5d4 11p         - 5d3 5f 6s        parameters 5257 -  5260           Code = 2203
+5d4 11p         - 5d3 6s 6p        parameters 5261 -  5264           Code = 2203
+5d4 11p         - 5d3 6s 7p        parameters 5265 -  5268           Code = 2203
+5d4 11p         - 5d3 6s 8p        parameters 5269 -  5272           Code = 2203
+5d4 11p         - 5d3 6s 9p        parameters 5273 -  5276           Code = 2203
+5d4 11p         - 5d3 6s 10p       parameters 5277 -  5280           Code = 2203
+5d4 11p         - 5d3 6s 11p       parameters 5281 -  5325           Code = 2202
+5d4 11p         - 5d3 6s 12p       parameters 5326 -  5329           Code = 2203
+5d4 11p         - 5d3 6p 6d        parameters 5330 -  5337           Code = 2203
+5d4 11p         - 5d3 6p 7s        parameters 5338 -  5341           Code = 2203
+5d4 11p         - 5d2 5f 6s2       no interactions                   Code = 2343
+5d4 11p         - 5d2 6s2 6p       no interactions                   Code = 2313
+5d4 11p         - 5d2 6s2 7p       no interactions                   Code = 2313
+5d4 11p         - 5d2 6s2 8p       no interactions                   Code = 2313
+5d4 11p         - 5d2 6s2 9p       no interactions                   Code = 2313
+5d4 11p         - 5d2 6s2 10p      no interactions                   Code = 2313
+5d4 11p         - 5d2 6s2 11p      parameters 5342 -  5346           Code = 2312
+5d4 11p         - 5d2 6s2 12p      no interactions                   Code = 2313
+5d4 11p         - 5d2 6s 6p 6d     no interactions                   Code = 4304
+5d4 11p         - 5d2 6s 6p 7s     no interactions                   Code = 4304
+5d4 11p         - 5d2 6p3          no interactions                   Code = 2317
+5d4 12p         - 5d3 5f 6s        parameters 5347 -  5350           Code = 2203
+5d4 12p         - 5d3 6s 6p        parameters 5351 -  5354           Code = 2203
+5d4 12p         - 5d3 6s 7p        parameters 5355 -  5358           Code = 2203
+5d4 12p         - 5d3 6s 8p        parameters 5359 -  5362           Code = 2203
+5d4 12p         - 5d3 6s 9p        parameters 5363 -  5366           Code = 2203
+5d4 12p         - 5d3 6s 10p       parameters 5367 -  5370           Code = 2203
+5d4 12p         - 5d3 6s 11p       parameters 5371 -  5374           Code = 2203
+5d4 12p         - 5d3 6s 12p       parameters 5375 -  5419           Code = 2202
+5d4 12p         - 5d3 6p 6d        parameters 5420 -  5427           Code = 2203
+5d4 12p         - 5d3 6p 7s        parameters 5428 -  5431           Code = 2203
+5d4 12p         - 5d2 5f 6s2       no interactions                   Code = 2343
+5d4 12p         - 5d2 6s2 6p       no interactions                   Code = 2313
+5d4 12p         - 5d2 6s2 7p       no interactions                   Code = 2313
+5d4 12p         - 5d2 6s2 8p       no interactions                   Code = 2313
+5d4 12p         - 5d2 6s2 9p       no interactions                   Code = 2313
+5d4 12p         - 5d2 6s2 10p      no interactions                   Code = 2313
+5d4 12p         - 5d2 6s2 11p      no interactions                   Code = 2313
+5d4 12p         - 5d2 6s2 12p      parameters 5432 -  5436           Code = 2312
+5d4 12p         - 5d2 6s 6p 6d     no interactions                   Code = 4304
+5d4 12p         - 5d2 6s 6p 7s     no interactions                   Code = 4304
+5d4 12p         - 5d2 6p3          no interactions                   Code = 2317
+5d3 5f 6s       - 5d3 6s 6p        parameters 5437 -  5440           Code = 3104
+5d3 5f 6s       - 5d3 6s 7p        parameters 5441 -  5444           Code = 3104
+5d3 5f 6s       - 5d3 6s 8p        parameters 5445 -  5448           Code = 3104
+5d3 5f 6s       - 5d3 6s 9p        parameters 5449 -  5452           Code = 3104
+5d3 5f 6s       - 5d3 6s 10p       parameters 5453 -  5456           Code = 3104
+5d3 5f 6s       - 5d3 6s 11p       parameters 5457 -  5460           Code = 3104
+5d3 5f 6s       - 5d3 6s 12p       parameters 5461 -  5464           Code = 3104
+5d3 5f 6s       - 5d3 6p 6d        parameters 5465 -  5466           Code = 3106
+5d3 5f 6s       - 5d3 6p 7s        no interactions                   Code = 3106
+5d3 5f 6s       - 5d2 5f 6s2       parameters 5467 -  5469           Code = 3211
+5d3 5f 6s       - 5d2 6s2 6p       parameters 5470 -  5471           Code = 3204
+5d3 5f 6s       - 5d2 6s2 7p       parameters 5472 -  5473           Code = 3204
+5d3 5f 6s       - 5d2 6s2 8p       parameters 5474 -  5475           Code = 3204
+5d3 5f 6s       - 5d2 6s2 9p       parameters 5476 -  5477           Code = 3204
+5d3 5f 6s       - 5d2 6s2 10p      parameters 5478 -  5479           Code = 3204
+5d3 5f 6s       - 5d2 6s2 11p      parameters 5480 -  5481           Code = 3204
+5d3 5f 6s       - 5d2 6s2 12p      parameters 5482 -  5483           Code = 3204
+5d3 5f 6s       - 5d2 6s 6p 6d     parameters 5484 -  5487           Code = 4204
+5d3 5f 6s       - 5d2 6s 6p 7s     parameters 5488 -  5489           Code = 4204
+5d3 5f 6s       - 5d2 6p3          no interactions                   Code = 7033
+5d3 6s 6p       - 5d3 6s 7p        parameters 5490 -  5500           Code = 3109
+5d3 6s 6p       - 5d3 6s 8p        parameters 5501 -  5511           Code = 3109
+5d3 6s 6p       - 5d3 6s 9p        parameters 5512 -  5522           Code = 3109
+5d3 6s 6p       - 5d3 6s 10p       parameters 5523 -  5533           Code = 3109
+5d3 6s 6p       - 5d3 6s 11p       parameters 5534 -  5544           Code = 3109
+5d3 6s 6p       - 5d3 6s 12p       parameters 5545 -  5555           Code = 3109
+5d3 6s 6p       - 5d3 6p 6d        parameters 5556 -  5559           Code = 3104
+5d3 6s 6p       - 5d3 6p 7s        parameters 5560 -  5563           Code = 3104
+5d3 6s 6p       - 5d2 5f 6s2       parameters 5564 -  5565           Code = 3213
+5d3 6s 6p       - 5d2 6s2 6p       parameters 5566 -  5609           Code = 3201
+5d3 6s 6p       - 5d2 6s2 7p       parameters 5610 -  5611           Code = 3209
+5d3 6s 6p       - 5d2 6s2 8p       parameters 5612 -  5613           Code = 3209
+5d3 6s 6p       - 5d2 6s2 9p       parameters 5614 -  5615           Code = 3209
+5d3 6s 6p       - 5d2 6s2 10p      parameters 5616 -  5617           Code = 3209
+5d3 6s 6p       - 5d2 6s2 11p      parameters 5618 -  5619           Code = 3209
+5d3 6s 6p       - 5d2 6s2 12p      parameters 5620 -  5621           Code = 3209
+5d3 6s 6p       - 5d2 6s 6p 6d     parameters 5622 -  5630           Code = 4201
+5d3 6s 6p       - 5d2 6s 6p 7s     parameters 5631 -  5633           Code = 4201
+5d3 6s 6p       - 5d2 6p3          parameter  5634                   Code = 7032
+5d3 6s 7p       - 5d3 6s 8p        parameters 5635 -  5645           Code = 3109
+5d3 6s 7p       - 5d3 6s 9p        parameters 5646 -  5656           Code = 3109
+5d3 6s 7p       - 5d3 6s 10p       parameters 5657 -  5667           Code = 3109
+5d3 6s 7p       - 5d3 6s 11p       parameters 5668 -  5678           Code = 3109
+5d3 6s 7p       - 5d3 6s 12p       parameters 5679 -  5689           Code = 3109
+5d3 6s 7p       - 5d3 6p 6d        parameters 5690 -  5691           Code = 3106
+5d3 6s 7p       - 5d3 6p 7s        parameters 5692 -  5693           Code = 3106
+5d3 6s 7p       - 5d2 5f 6s2       parameters 5694 -  5695           Code = 3213
+5d3 6s 7p       - 5d2 6s2 6p       parameters 5696 -  5697           Code = 3209
+5d3 6s 7p       - 5d2 6s2 7p       parameters 5698 -  5741           Code = 3201
+5d3 6s 7p       - 5d2 6s2 8p       parameters 5742 -  5743           Code = 3209
+5d3 6s 7p       - 5d2 6s2 9p       parameters 5744 -  5745           Code = 3209
+5d3 6s 7p       - 5d2 6s2 10p      parameters 5746 -  5747           Code = 3209
+5d3 6s 7p       - 5d2 6s2 11p      parameters 5748 -  5749           Code = 3209
+5d3 6s 7p       - 5d2 6s2 12p      parameters 5750 -  5751           Code = 3209
+5d3 6s 7p       - 5d2 6s 6p 6d     parameters 5752 -  5755           Code = 4208
+5d3 6s 7p       - 5d2 6s 6p 7s     parameters 5756 -  5757           Code = 4208
+5d3 6s 7p       - 5d2 6p3          no interactions                   Code = 7033
+5d3 6s 8p       - 5d3 6s 9p        parameters 5758 -  5768           Code = 3109
+5d3 6s 8p       - 5d3 6s 10p       parameters 5769 -  5779           Code = 3109
+5d3 6s 8p       - 5d3 6s 11p       parameters 5780 -  5790           Code = 3109
+5d3 6s 8p       - 5d3 6s 12p       parameters 5791 -  5801           Code = 3109
+5d3 6s 8p       - 5d3 6p 6d        parameters 5802 -  5803           Code = 3106
+5d3 6s 8p       - 5d3 6p 7s        parameters 5804 -  5805           Code = 3106
+5d3 6s 8p       - 5d2 5f 6s2       parameters 5806 -  5807           Code = 3213
+5d3 6s 8p       - 5d2 6s2 6p       parameters 5808 -  5809           Code = 3209
+5d3 6s 8p       - 5d2 6s2 7p       parameters 5810 -  5811           Code = 3209
+5d3 6s 8p       - 5d2 6s2 8p       parameters 5812 -  5855           Code = 3201
+5d3 6s 8p       - 5d2 6s2 9p       parameters 5856 -  5857           Code = 3209
+5d3 6s 8p       - 5d2 6s2 10p      parameters 5858 -  5859           Code = 3209
+5d3 6s 8p       - 5d2 6s2 11p      parameters 5860 -  5861           Code = 3209
+5d3 6s 8p       - 5d2 6s2 12p      parameters 5862 -  5863           Code = 3209
+5d3 6s 8p       - 5d2 6s 6p 6d     parameters 5864 -  5867           Code = 4208
+5d3 6s 8p       - 5d2 6s 6p 7s     parameters 5868 -  5869           Code = 4208
+5d3 6s 8p       - 5d2 6p3          no interactions                   Code = 7033
+5d3 6s 9p       - 5d3 6s 10p       parameters 5870 -  5880           Code = 3109
+5d3 6s 9p       - 5d3 6s 11p       parameters 5881 -  5891           Code = 3109
+5d3 6s 9p       - 5d3 6s 12p       parameters 5892 -  5902           Code = 3109
+5d3 6s 9p       - 5d3 6p 6d        parameters 5903 -  5904           Code = 3106
+5d3 6s 9p       - 5d3 6p 7s        parameters 5905 -  5906           Code = 3106
+5d3 6s 9p       - 5d2 5f 6s2       parameters 5907 -  5908           Code = 3213
+5d3 6s 9p       - 5d2 6s2 6p       parameters 5909 -  5910           Code = 3209
+5d3 6s 9p       - 5d2 6s2 7p       parameters 5911 -  5912           Code = 3209
+5d3 6s 9p       - 5d2 6s2 8p       parameters 5913 -  5914           Code = 3209
+5d3 6s 9p       - 5d2 6s2 9p       parameters 5915 -  5958           Code = 3201
+5d3 6s 9p       - 5d2 6s2 10p      parameters 5959 -  5960           Code = 3209
+5d3 6s 9p       - 5d2 6s2 11p      parameters 5961 -  5962           Code = 3209
+5d3 6s 9p       - 5d2 6s2 12p      parameters 5963 -  5964           Code = 3209
+5d3 6s 9p       - 5d2 6s 6p 6d     parameters 5965 -  5968           Code = 4208
+5d3 6s 9p       - 5d2 6s 6p 7s     parameters 5969 -  5970           Code = 4208
+5d3 6s 9p       - 5d2 6p3          no interactions                   Code = 7033
+5d3 6s 10p      - 5d3 6s 11p       parameters 5971 -  5981           Code = 3109
+5d3 6s 10p      - 5d3 6s 12p       parameters 5982 -  5992           Code = 3109
+5d3 6s 10p      - 5d3 6p 6d        parameters 5993 -  5994           Code = 3106
+5d3 6s 10p      - 5d3 6p 7s        parameters 5995 -  5996           Code = 3106
+5d3 6s 10p      - 5d2 5f 6s2       parameters 5997 -  5998           Code = 3213
+5d3 6s 10p      - 5d2 6s2 6p       parameters 5999 -  6000           Code = 3209
+5d3 6s 10p      - 5d2 6s2 7p       parameters 6001 -  6002           Code = 3209
+5d3 6s 10p      - 5d2 6s2 8p       parameters 6003 -  6004           Code = 3209
+5d3 6s 10p      - 5d2 6s2 9p       parameters 6005 -  6006           Code = 3209
+5d3 6s 10p      - 5d2 6s2 10p      parameters 6007 -  6050           Code = 3201
+5d3 6s 10p      - 5d2 6s2 11p      parameters 6051 -  6052           Code = 3209
+5d3 6s 10p      - 5d2 6s2 12p      parameters 6053 -  6054           Code = 3209
+5d3 6s 10p      - 5d2 6s 6p 6d     parameters 6055 -  6058           Code = 4208
+5d3 6s 10p      - 5d2 6s 6p 7s     parameters 6059 -  6060           Code = 4208
+5d3 6s 10p      - 5d2 6p3          no interactions                   Code = 7033
+5d3 6s 11p      - 5d3 6s 12p       parameters 6061 -  6071           Code = 3109
+5d3 6s 11p      - 5d3 6p 6d        parameters 6072 -  6073           Code = 3106
+5d3 6s 11p      - 5d3 6p 7s        parameters 6074 -  6075           Code = 3106
+5d3 6s 11p      - 5d2 5f 6s2       parameters 6076 -  6077           Code = 3213
+5d3 6s 11p      - 5d2 6s2 6p       parameters 6078 -  6079           Code = 3209
+5d3 6s 11p      - 5d2 6s2 7p       parameters 6080 -  6081           Code = 3209
+5d3 6s 11p      - 5d2 6s2 8p       parameters 6082 -  6083           Code = 3209
+5d3 6s 11p      - 5d2 6s2 9p       parameters 6084 -  6085           Code = 3209
+5d3 6s 11p      - 5d2 6s2 10p      parameters 6086 -  6087           Code = 3209
+5d3 6s 11p      - 5d2 6s2 11p      parameters 6088 -  6131           Code = 3201
+5d3 6s 11p      - 5d2 6s2 12p      parameters 6132 -  6133           Code = 3209
+5d3 6s 11p      - 5d2 6s 6p 6d     parameters 6134 -  6137           Code = 4208
+5d3 6s 11p      - 5d2 6s 6p 7s     parameters 6138 -  6139           Code = 4208
+5d3 6s 11p      - 5d2 6p3          no interactions                   Code = 7033
+5d3 6s 12p      - 5d3 6p 6d        parameters 6140 -  6141           Code = 3106
+5d3 6s 12p      - 5d3 6p 7s        parameters 6142 -  6143           Code = 3106
+5d3 6s 12p      - 5d2 5f 6s2       parameters 6144 -  6145           Code = 3213
+5d3 6s 12p      - 5d2 6s2 6p       parameters 6146 -  6147           Code = 3209
+5d3 6s 12p      - 5d2 6s2 7p       parameters 6148 -  6149           Code = 3209
+5d3 6s 12p      - 5d2 6s2 8p       parameters 6150 -  6151           Code = 3209
+5d3 6s 12p      - 5d2 6s2 9p       parameters 6152 -  6153           Code = 3209
+5d3 6s 12p      - 5d2 6s2 10p      parameters 6154 -  6155           Code = 3209
+5d3 6s 12p      - 5d2 6s2 11p      parameters 6156 -  6157           Code = 3209
+5d3 6s 12p      - 5d2 6s2 12p      parameters 6158 -  6201           Code = 3201
+5d3 6s 12p      - 5d2 6s 6p 6d     parameters 6202 -  6205           Code = 4208
+5d3 6s 12p      - 5d2 6s 6p 7s     parameters 6206 -  6207           Code = 4208
+5d3 6s 12p      - 5d2 6p3          no interactions                   Code = 7033
+5d3 6p 6d       - 5d3 6p 7s        parameters 6208 -  6211           Code = 3109
+5d3 6p 6d       - 5d2 5f 6s2       no interactions                   Code = 3216
+5d3 6p 6d       - 5d2 6s2 6p       parameter  6212                   Code = 3203
+5d3 6p 6d       - 5d2 6s2 7p       no interactions                   Code = 3206
+5d3 6p 6d       - 5d2 6s2 8p       no interactions                   Code = 3206
+5d3 6p 6d       - 5d2 6s2 9p       no interactions                   Code = 3206
+5d3 6p 6d       - 5d2 6s2 10p      no interactions                   Code = 3206
+5d3 6p 6d       - 5d2 6s2 11p      no interactions                   Code = 3206
+5d3 6p 6d       - 5d2 6s2 12p      no interactions                   Code = 3206
+5d3 6p 6d       - 5d2 6s 6p 6d     parameters 6213 -  6217           Code = 4200
+5d3 6p 6d       - 5d2 6s 6p 7s     parameters 6218 -  6219           Code = 4203
+5d3 6p 6d       - 5d2 6p3          parameters 6220 -  6221           Code = 7031
+5d3 6p 7s       - 5d2 5f 6s2       no interactions                   Code = 3216
+5d3 6p 7s       - 5d2 6s2 6p       no interactions                   Code = 3203
+5d3 6p 7s       - 5d2 6s2 7p       no interactions                   Code = 3206
+5d3 6p 7s       - 5d2 6s2 8p       no interactions                   Code = 3206
+5d3 6p 7s       - 5d2 6s2 9p       no interactions                   Code = 3206
+5d3 6p 7s       - 5d2 6s2 10p      no interactions                   Code = 3206
+5d3 6p 7s       - 5d2 6s2 11p      no interactions                   Code = 3206
+5d3 6p 7s       - 5d2 6s2 12p      no interactions                   Code = 3206
+5d3 6p 7s       - 5d2 6s 6p 6d     parameters 6222 -  6223           Code = 4203
+5d3 6p 7s       - 5d2 6s 6p 7s     parameters 6224 -  6226           Code = 4200
+5d3 6p 7s       - 5d2 6p3          parameter  6227                   Code = 7031
+5d2 5f 6s2      - 5d2 6s2 6p       parameters 6228 -  6231           Code = 3124
+5d2 5f 6s2      - 5d2 6s2 7p       parameters 6232 -  6235           Code = 3124
+5d2 5f 6s2      - 5d2 6s2 8p       parameters 6236 -  6239           Code = 3124
+5d2 5f 6s2      - 5d2 6s2 9p       parameters 6240 -  6243           Code = 3124
+5d2 5f 6s2      - 5d2 6s2 10p      parameters 6244 -  6247           Code = 3124
+5d2 5f 6s2      - 5d2 6s2 11p      parameters 6248 -  6251           Code = 3124
+5d2 5f 6s2      - 5d2 6s2 12p      parameters 6252 -  6255           Code = 3124
+5d2 5f 6s2      - 5d2 6s 6p 6d     parameters 6256 -  6257           Code = 4124
+5d2 5f 6s2      - 5d2 6s 6p 7s     no interactions                   Code = 4124
+5d2 5f 6s2      - 5d2 6p3          no interactions                   Code = 7173
+5d2 6s2 6p      - 5d2 6s2 7p       parameters 6258 -  6267           Code = 3149
+5d2 6s2 6p      - 5d2 6s2 8p       parameters 6268 -  6277           Code = 3149
+5d2 6s2 6p      - 5d2 6s2 9p       parameters 6278 -  6287           Code = 3149
+5d2 6s2 6p      - 5d2 6s2 10p      parameters 6288 -  6297           Code = 3149
+5d2 6s2 6p      - 5d2 6s2 11p      parameters 6298 -  6307           Code = 3149
+5d2 6s2 6p      - 5d2 6s2 12p      parameters 6308 -  6317           Code = 3149
+5d2 6s2 6p      - 5d2 6s 6p 6d     parameters 6318 -  6321           Code = 4141
+5d2 6s2 6p      - 5d2 6s 6p 7s     parameters 6322 -  6326           Code = 4141
+5d2 6s2 6p      - 5d2 6p3          parameter  6327                   Code = 7142
+5d2 6s2 7p      - 5d2 6s2 8p       parameters 6328 -  6337           Code = 3149
+5d2 6s2 7p      - 5d2 6s2 9p       parameters 6338 -  6347           Code = 3149
+5d2 6s2 7p      - 5d2 6s2 10p      parameters 6348 -  6357           Code = 3149
+5d2 6s2 7p      - 5d2 6s2 11p      parameters 6358 -  6367           Code = 3149
+5d2 6s2 7p      - 5d2 6s2 12p      parameters 6368 -  6377           Code = 3149
+5d2 6s2 7p      - 5d2 6s 6p 6d     parameters 6378 -  6379           Code = 4148
+5d2 6s2 7p      - 5d2 6s 6p 7s     parameters 6380 -  6381           Code = 4148
+5d2 6s2 7p      - 5d2 6p3          no interactions                   Code = 7143
+5d2 6s2 8p      - 5d2 6s2 9p       parameters 6382 -  6391           Code = 3149
+5d2 6s2 8p      - 5d2 6s2 10p      parameters 6392 -  6401           Code = 3149
+5d2 6s2 8p      - 5d2 6s2 11p      parameters 6402 -  6411           Code = 3149
+5d2 6s2 8p      - 5d2 6s2 12p      parameters 6412 -  6421           Code = 3149
+5d2 6s2 8p      - 5d2 6s 6p 6d     parameters 6422 -  6423           Code = 4148
+5d2 6s2 8p      - 5d2 6s 6p 7s     parameters 6424 -  6425           Code = 4148
+5d2 6s2 8p      - 5d2 6p3          no interactions                   Code = 7143
+5d2 6s2 9p      - 5d2 6s2 10p      parameters 6426 -  6435           Code = 3149
+5d2 6s2 9p      - 5d2 6s2 11p      parameters 6436 -  6445           Code = 3149
+5d2 6s2 9p      - 5d2 6s2 12p      parameters 6446 -  6455           Code = 3149
+5d2 6s2 9p      - 5d2 6s 6p 6d     parameters 6456 -  6457           Code = 4148
+5d2 6s2 9p      - 5d2 6s 6p 7s     parameters 6458 -  6459           Code = 4148
+5d2 6s2 9p      - 5d2 6p3          no interactions                   Code = 7143
+5d2 6s2 10p     - 5d2 6s2 11p      parameters 6460 -  6469           Code = 3149
+5d2 6s2 10p     - 5d2 6s2 12p      parameters 6470 -  6479           Code = 3149
+5d2 6s2 10p     - 5d2 6s 6p 6d     parameters 6480 -  6481           Code = 4148
+5d2 6s2 10p     - 5d2 6s 6p 7s     parameters 6482 -  6483           Code = 4148
+5d2 6s2 10p     - 5d2 6p3          no interactions                   Code = 7143
+5d2 6s2 11p     - 5d2 6s2 12p      parameters 6484 -  6493           Code = 3149
+5d2 6s2 11p     - 5d2 6s 6p 6d     parameters 6494 -  6495           Code = 4148
+5d2 6s2 11p     - 5d2 6s 6p 7s     parameters 6496 -  6497           Code = 4148
+5d2 6s2 11p     - 5d2 6p3          no interactions                   Code = 7143
+5d2 6s2 12p     - 5d2 6s 6p 6d     parameters 6498 -  6499           Code = 4148
+5d2 6s2 12p     - 5d2 6s 6p 7s     parameters 6500 -  6501           Code = 4148
+5d2 6s2 12p     - 5d2 6p3          no interactions                   Code = 7143
+5d2 6s 6p 6d    - 5d2 6s 6p 7s     parameters 6502 -  6505           Code = 4101
+5d2 6s 6p 6d    - 5d2 6p3          parameter  6506                   Code = 9132
+5d2 6s 6p 7s    - 5d2 6p3          parameter  6507                   Code = 9132

@@ -9,7 +9,7 @@
       Title="EndPage">
 
     <Grid>
-        <TextBox x:Name="WyniktextBox" HorizontalAlignment="Left" Height="700" Margin="50,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="700"/>
+        <TextBox x:Name="WyniktextBox" HorizontalAlignment="Left" Height="700" Margin="50,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="700"/>
         <Button x:Name="SaveButton" Content="Zapisz do pliku" HorizontalAlignment="Left" Margin="800,100,0,0" VerticalAlignment="Top" Width="200" Height="100" FontSize="20" Click="SaveButton_Click"/>
         <Button x:Name="WsteczButton" Content="Wstecz" HorizontalAlignment="Left" Margin="800,294,0,0" VerticalAlignment="Top" Width="200" Height="100" FontSize="20" Click="WsteczButton_Click"/>
 
