@@ -25,15 +25,19 @@ namespace GUI
     {
         int par1;
         int par2;
+        string linkOut;
+        string linkMes;
         public EndPage()
         {
             InitializeComponent();
         }
-        public EndPage(int par1, int par2)
+        public EndPage(int par1, int par2, string linkOut, string linkMes)
         {
             InitializeComponent();
             this.par1 = par1;
             this.par2 = par2;
+            this.linkOut = linkOut;
+            this.linkMes = linkMes;
 
 
         }
@@ -41,7 +45,7 @@ namespace GUI
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            WyniktextBox.Text = par1.ToString() + " " + par2.ToString();
+            WyniktextBox.Text = par1.ToString() + "\n" + par2.ToString() + "\n" + linkOut + "\n" + linkMes;
             System.Windows.Forms.SaveFileDialog dialog = new System.Windows.Forms.SaveFileDialog();
             dialog.Filter = "Plik Tekstowy|*.txt";
             if (dialog.ShowDialog() == DialogResult.OK)

@@ -1,1 +1,4 @@
-2 1
+1
+9
+D:\Projekty\PZ_Konfiguracja_Procentowa\Pliki\Ni-even.out
+D:\Projekty\PZ_Konfiguracja_Procentowa\Pliki\Ni-even.mes
