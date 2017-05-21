@@ -27,10 +27,46 @@ namespace GUI
         {
             InitializeComponent();
         }
+        public MainPage(string linkOut, string linkMes)
+        {
+            InitializeComponent();
+            this.linkMes = linkMes;
+            this.linkOut = linkOut;
+            reader = new StreamReader(@linkOut);
+
+            string reg = @"((ITERATION NO.)\s+)" + 1;
+            Regex reg_S = new Regex(reg, RegexOptions.IgnoreCase);
+            string reg2 = @"((ITERATION NO)\s+)" + 1;
+            Regex reg_S2 = new Regex(reg, RegexOptions.IgnoreCase);
+            string line;
+            Regex reg3 = new Regex(@" +\d+ +\d+");
+            bool flag = false;
+            while ((line = reader.ReadLine()) != null)
+            {
+                Match Match__submatrix = reg_S.Match(line);
+                if (Match__submatrix.Success || flag)
+                {
+                    flag = true;
+                    do
+                    {
+                        line = reader.ReadLine();
+                        Match Match__submatrix3 = reg3.Match(line);
+                        if (Match__submatrix3.Success)
+                            textBoxOut.Items.Add(line);
+                        Match Match__submatrix2 = reg_S2.Match(line);
+                        if (Match__submatrix2.Success)
+                        {
+                            flag = false;
+                        }
+                    } while (flag);
+
+                }
+            }
+        }
 
         StreamReader reader;
-        string linkOut="";
-        string linkMes ="";
+        string linkOut;
+        string linkMes;
 
         private void buttonPrzeszukajOut_Click(object sender, RoutedEventArgs e)
         {

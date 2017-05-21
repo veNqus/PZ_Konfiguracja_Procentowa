@@ -61,7 +61,7 @@ namespace GUI
 
         private void WsteczButton_Click(object sender, RoutedEventArgs e)
         {
-            MainPage mainPage = new MainPage();
+            MainPage mainPage = new MainPage(linkOut, linkMes);
             this.NavigationService.Navigate(mainPage);
 
         }
@@ -107,7 +107,7 @@ namespace GUI
                 {
                     wynik_submatrix = match_submatrix.ToString();
 
-                    nr_submatrix = wynik_submatrix.Substring(10, 2);
+                    nr_submatrix = wynik_submatrix.Substring(10, 3);
                     min_submatrix = wynik_submatrix.Substring(19, 4);
                     max_submatrix = wynik_submatrix.Substring(26, 4);
                     if (Convert.ToInt32(nr_submatrix) == value_submatrix)
@@ -121,7 +121,6 @@ namespace GUI
                     //plik_mes.Text += "submatrix" + nr_submatrix + " " + min_submatrix + " " + max_submatrix + "\n";
                 }
             }
-               System.Windows.MessageBox.Show(Decimal.Round(cala_suma, 2).ToString());
             }
 
                    public decimal szukaj_w_out(string submatrix, int poziom, string od, string do_poziomu, string last_conf)
@@ -147,7 +146,11 @@ namespace GUI
                         ile_spacji += " ";
                     }
                     
-                    WyniktextBox.Text += (last_conf + ":" + ile_spacji + "\t" + suma + "\n");
+                    WyniktextBox.Text += (last_conf + ":" + ile_spacji + "\t\t" + suma + "%\n");
+                }
+                else
+                {
+                    WyniktextBox.Text += (last_conf + ":" + "\t\t" + suma + "%\n");
                 }
                 
             }
@@ -187,23 +190,14 @@ namespace GUI
                     {
                         try
                         {
-                            string poziom = match.ToString().Substring(2 + (k * 23), 3);
-                            string numer = match.ToString().Substring(6 + (k * 23), 4);
-                            string wartosc = match.ToString().Substring(13 + (k * 23), 9);
+                            string poziom = match.ToString().Substring(2 + (k * 22), 3);
+                            string numer = match.ToString().Substring(6 + (k * 22), 4);
+                            string wartosc = match.ToString().Substring(12+ (k * 22), 9);
                             int poziom_int = Convert.ToInt32(poziom);
                             int numer_int = Convert.ToInt32(numer);
                             decimal wartosc_decimal = decimal.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
                             //    decimal wartosc_decimal = (decimal)wartosc_double;
                             tablica[last_submatrix, poziom_int, numer_int] = wartosc_decimal;
-
-                            //string poziom = match.ToString().Substring(2 + (k * 22), 3);
-                            //string numer = match.ToString().Substring(6 + (k * 22), 3);
-                            //string wartosc = match.ToString().Substring(12 + (k * 22), 9);
-                            //int poziom_int = Convert.ToInt32(poziom);
-                            //int numer_int = Convert.ToInt32(numer);
-                            //decimal wartosc_decimal = decimal.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
-                            ////    decimal wartosc_decimal = (decimal)wartosc_double;
-                            //tablica[last_submatrix, poziom_int, numer_int] = wartosc_decimal;
                         }
                         catch
                         {
