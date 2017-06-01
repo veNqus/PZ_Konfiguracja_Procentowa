@@ -42,7 +42,9 @@ namespace GUI
             this.par2 = par2;
             this.linkOut = linkOut;
             this.linkMes = linkMes;
+            WyniktextBox.Text = ("Submatrix: " + par1 + "\tLevel: " + par2 + "\n\n");
             Do_All();
+
 
         }
 
@@ -54,7 +56,7 @@ namespace GUI
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 StreamWriter f = new StreamWriter(dialog.FileName);
-                f.Write("Submatrix: " + par1 + "\tLevel: " + par2 + "\n\n" + WyniktextBox.Text);
+                f.Write(WyniktextBox.Text);
                 f.Close();
             }
         }
@@ -117,11 +119,12 @@ namespace GUI
                         cala_suma += szukaj_w_out(nr_submatrix, value_poziom, min_submatrix, max_submatrix, last_conf);
 
                     }
-
+                    
                     //plik_mes.Text += "submatrix" + nr_submatrix + " " + min_submatrix + " " + max_submatrix + "\n";
                 }
+               
             }
-            }
+        }
 
                    public decimal szukaj_w_out(string submatrix, int poziom, string od, string do_poziomu, string last_conf)
         {
@@ -137,9 +140,9 @@ namespace GUI
             suma = Decimal.Round(suma, 2);
             if (suma >= (decimal)0.01)
             {
-                if (last_conf.Length < 10)
+                if (last_conf.Length < 13)
                 {
-                    int ilespacji = 10 - last_conf.Length;
+                    int ilespacji = 13 - last_conf.Length;
                     string ile_spacji = "";
                     for (int i = 0; i < ilespacji; i++)
                     {
@@ -177,7 +180,7 @@ namespace GUI
                 // wyszukanie poziomu
                 //string regexstring = @"( *\( +\d_+"+@", +\d+"+@"\) +-*\d.\d+\/)+";
                 string test = @" \(\d+,\d+" + @"\)\d+)";
-                string regexstring = (@"( *\( +\d+\, +\d+\) +-*\d.\d+\/)+");
+                string regexstring = (@"( *\( +\d+\, *\d+\) +-*\d.\d+\/)+");
 
                 Regex parts = new Regex(regexstring, RegexOptions.IgnoreCase);
 
@@ -198,6 +201,10 @@ namespace GUI
                             decimal wartosc_decimal = decimal.Parse(wartosc, System.Globalization.CultureInfo.InvariantCulture);
                             //    decimal wartosc_decimal = (decimal)wartosc_double;
                             tablica[last_submatrix, poziom_int, numer_int] = wartosc_decimal;
+                            if (numer_int > 1000)
+                            {
+                                String test23 = "";
+                            }
                         }
                         catch
                         {
