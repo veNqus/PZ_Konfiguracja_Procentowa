@@ -1,0 +1,7 @@
+Instrukcja obs³ugi:
+1. wczytaj plik .out
+2. wczytaj plik .mes
+3. W okienku wybierz interesuj¹c¹ konfiguracje
+4. W nowym oknie otworzy siê wynik 
+5. Mo¿esz go zapisaæ do pliku
+6. Jeœli chcesz mo¿esz cofn¹æ i wybraæ inn¹ konfiguracje

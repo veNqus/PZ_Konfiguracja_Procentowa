@@ -1,0 +1,20 @@
+﻿<Page x:Class="GUI.HelpPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="HelpPage">
+
+    <Grid>
+        <Label Margin="20,50,0,0" HorizontalAlignment="Center">
+            <TextBlock FontSize="36" FontWeight="Bold">Instrukcja obsługi:</TextBlock>
+        </Label>
+        <Label Margin="20,120,0,0" HorizontalAlignment="Center">
+            <TextBlock FontSize="32">1. wczytaj plik .out<LineBreak/>2. wczytaj plik .mes<LineBreak/>3. W okienku wybierz interesującą konfiguracje<LineBreak/>4.  W nowym oknie otworzy się wynik<LineBreak/>5. Możesz go zapisać do pliku<LineBreak/>6. Jeśli chcesz możesz cofnąć i wybrać inną konfiguracje</TextBlock>
+        </Label>
+    </Grid>
+</Page>
+

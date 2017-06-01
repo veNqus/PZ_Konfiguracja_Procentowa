@@ -141,5 +141,12 @@ namespace GUI
             else
                 MessageBox.Show("najpierw wczytaj plik OUT oraz MES");
         }
+
+        private void buttonHelp_Click(object sender, RoutedEventArgs e)
+        {
+            HelpPage helpPage = new HelpPage();
+            this.NavigationService.Navigate(helpPage);
+
+        }
     }
 }
