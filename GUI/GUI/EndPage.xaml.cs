@@ -55,8 +55,8 @@ namespace GUI
             dialog.Filter = "Plik Tekstowy|*.txt";
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                StreamWriter f = new StreamWriter(dialog.FileName);
-                f.Write(WyniktextBox.Text);
+                StreamWriter f = new StreamWriter(dialog.FileName, true);
+                f.Write(WyniktextBox.Text + "\n\n");
                 f.Close();
             }
         }
