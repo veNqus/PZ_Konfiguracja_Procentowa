@@ -123,7 +123,7 @@ namespace GUI
         }
         private void textBoxOut_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(linkOut != "" && linkMes != "")
+            try
             {
                 Regex reg = new Regex(@" *\d+ +\d+");
                 string linia = textBoxOut.SelectedItem.ToString();
@@ -138,8 +138,10 @@ namespace GUI
 
                 // REGEX NA POZNIEJ  +\d+ +\d+ +
             }
-            else
+            catch
+            {
                 MessageBox.Show("najpierw wczytaj plik OUT oraz MES");
+            }
         }
 
         private void buttonHelp_Click(object sender, RoutedEventArgs e)

@@ -13,7 +13,7 @@
             <TextBlock FontSize="36" FontWeight="Bold">Instrukcja obsługi:</TextBlock>
         </Label>
         <Label Margin="20,120,0,0" HorizontalAlignment="Center">
-            <TextBlock FontSize="32">1. wczytaj plik .out<LineBreak/>2. wczytaj plik .mes<LineBreak/>3. W okienku wybierz interesującą konfiguracje<LineBreak/>4.  W nowym oknie otworzy się wynik<LineBreak/>5. Możesz go zapisać do pliku<LineBreak/>6. Jeśli chcesz możesz cofnąć i wybrać inną konfiguracje</TextBlock>
+            <TextBlock FontSize="32">1. wczytaj plik .out<LineBreak/>2. wczytaj plik .mes<LineBreak/>3. W okienku wybierz interesującą podmacierz i poziom<LineBreak/>4.  W nowym oknie otworzy się wynik<LineBreak/>5. Możesz go zapisać do pliku<LineBreak/>6. Jeśli chcesz możesz cofnąć i wybrać inną podmacierz u poziom</TextBlock>
         </Label>
     </Grid>
 </Page>
